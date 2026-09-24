@@ -1,0 +1,25 @@
+# podman-compose.yml — adapted from core-platform/app-builder-guidances/templates/.
+#
+# Deviations from the canonical template, both documented in README.md
+# "CCoE waivers" + adr.md:
+#   - single `frontend` service: no `api`/`worker` today, the app has zero
+#     persistent state (§0 KISS) — the mocked data lives in the Next.js
+#     bundle itself.
+#   - no `core-network` / registry: nothing here talks to Postgres, Valkey,
+#     the LLM gateway or object storage yet, so there is nothing to gain from
+#     joining the platform's shared network. Revisit when a real `api`
+#     service or a core dependency shows up.
+#   - ports: the hackathon's reverse proxy only forwards 8080/8081 (see the
+#     top-level CLAUDE.md), not the usual 10-port-per-app block.
+#
+# Usage (no CI): APP=exaltemps-solidaire podman compose -p "$APP" up -d
+
+name: ${APP}
+
+services:
+  frontend:
+    image: ${APP}-frontend:${TAG:-dev}
+    container_name: ${APP}-frontend
+    restart: unless-stopped
+    ports:
+      - "8080:8080"

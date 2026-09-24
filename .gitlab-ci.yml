@@ -1,0 +1,101 @@
+# .gitlab-ci.yml — adapted from core-platform/app-builder-guidances/templates/.
+#
+# Deviations from the canonical template (documented in README.md "CCoE
+# waivers" + adr.md):
+#   - no `provision` stage / bootstrap.sh: the app has no Postgres, S3, LLM
+#     or Temporal dependency today (§0 KISS) — nothing to provision.
+#   - a single `frontend` job, no `api`/`worker`.
+#   - `image-frontend` builds straight into the local podman image store
+#     (no `localhost:5000` registry push): the registry is a core-platform
+#     service, and joining core-network isn't justified yet (see
+#     podman-compose.yml).
+#   - `verify` only checks the frontend port (8080) — no api/health to poll.
+#
+#   gitlab-ci-local --force-shell-executor                              # start
+#   gitlab-ci-local --force-shell-executor --variable ACTION=stop       # stop
+#   gitlab-ci-local --force-shell-executor --variable ACTION=purge      # purge
+
+stages:
+  - app-build
+  - app-image
+  - app-deploy
+  - app-verify
+  - app-stop
+  - app-purge
+
+variables:
+  APP: exaltemps-solidaire
+  TAG: dev
+  ACTION: start                # start | stop | purge (override via --variable)
+
+.on-start:
+  rules:
+    - if: $ACTION == "start"
+
+# ============================================================================
+# ACTION=start
+# ============================================================================
+
+build-frontend:
+  extends: .on-start
+  stage: app-build
+  script:
+    - npm ci
+    - npm run build              # next build (output: "standalone", see next.config.ts)
+
+image-frontend:
+  extends: .on-start
+  stage: app-image
+  script:
+    - podman build -t "${APP}-frontend:${TAG}" .
+
+deploy:
+  extends: .on-start
+  stage: app-deploy
+  script:
+    - echo "[deploy] podman compose -p $APP up -d --force-recreate"
+    - podman compose -p "$APP" up -d --force-recreate
+
+verify:
+  extends: .on-start
+  stage: app-verify
+  script:
+    - |
+      set -e
+      echo "[verify] smoke test app"
+      ok=0
+      for _ in $(seq 1 30); do
+        if curl -sf http://localhost:8080/ >/dev/null; then
+          ok=1; break
+        fi
+        sleep 1
+      done
+      if [ "$ok" != "1" ]; then
+        echo "[verify] FAIL — frontend not reachable after 30s"
+        exit 1
+      fi
+      echo "  OK  frontend  http://localhost:8080"
+
+# ============================================================================
+# ACTION=stop
+# ============================================================================
+
+stop:
+  stage: app-stop
+  rules:
+    - if: $ACTION == "stop"
+  script:
+    - echo "[stop] podman compose -p $APP down"
+    - podman compose -p "$APP" down
+
+# ============================================================================
+# ACTION=purge
+# ============================================================================
+
+purge:
+  stage: app-purge
+  rules:
+    - if: $ACTION == "purge"
+  script:
+    - echo "[purge] podman compose -p $APP down --volumes"
+    - podman compose -p "$APP" down --volumes
