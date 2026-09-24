@@ -1,0 +1,1067 @@
+{
+  "equipe": {
+    "code": "77VBWP",
+    "session_id": "2aa8876e-837a-4249-8f60-4be6b4bdbe6c",
+    "association": "La Sauvegarde du Nord",
+    "theme": "sdn-acces-a-l-information",
+    "etape_atteinte": "conception",
+    "le": "2026-09-24T11:54:07.313546Z"
+  },
+  "membres": [
+    {
+      "nom": "Thomas",
+      "role": "PM"
+    },
+    {
+      "nom": "Héloïse",
+      "role": "PM"
+    },
+    {
+      "nom": "Louis",
+      "role": "PO"
+    },
+    {
+      "nom": "Axelle",
+      "role": "Autre"
+    },
+    {
+      "nom": "Arnaud",
+      "role": "Autre"
+    },
+    {
+      "nom": "Axelle",
+      "role": "Autre"
+    },
+    {
+      "nom": "Thomas",
+      "role": "PM"
+    },
+    {
+      "nom": "Victoire",
+      "role": "Dev"
+    }
+  ],
+  "dossier": {
+    "company": {
+      "name": "La Sauvegarde du Nord",
+      "type": "Association loi 1901, indépendante et laïque · social et médico-social",
+      "founded": "",
+      "size": "1 791 professionnels · 177 bénévoles · 140 services",
+      "location": "Nord et Pas-de-Calais · siège à Lambersart",
+      "pitch": "L'association intervient auprès de personnes en situation de vulnérabilité économique, sociale ou de santé. Historiquement centrée sur l'enfance et l'adolescence, elle s'adresse aujourd'hui aussi aux adultes. Son activité est répartie en cinq pôles.",
+      "histoire": "Historiquement, la Sauvegarde du Nord a construit son projet autour des besoins liés à l'enfance et l'adolescence. Aujourd'hui, l'association a élargi son action pour intervenir auprès d'autres publics, dans des domaines tels que le handicap, la santé, l'inclusion sociale et l'addictologie. Elle œuvre sans relâche pour répondre aux besoins des enfants, des jeunes, des personnes seules, des familles en situation de vulnérabilité. Elle agit chaque jour au plus près des réalités du terrain avec une approche humaine, pluridisciplinaire et coordonnée.",
+      "devise": "Accompagner et faire grandir",
+      "missions": []
+    },
+    "apercu": {
+      "poles": [
+        {
+          "nom": "Protection de l'Enfance",
+          "resume": "Grandir en sécurité : AEMO, MJIE, maisons d'enfants, mineurs non accompagnés, médiation familiale, réparation pénale."
+        },
+        {
+          "nom": "Inclusion Sociale",
+          "resume": "Sortir de la rue et de la précarité : hébergement d'urgence, maraudes, chantiers d'insertion, pensions de famille."
+        },
+        {
+          "nom": "Addictologie",
+          "resume": "Accompagner sans réduire la personne à son addiction : CSAPA, CAARUD, communauté thérapeutique, centre de méthadone."
+        },
+        {
+          "nom": "Handicap",
+          "resume": "Scolariser et inclure les enfants en situation de handicap. Uniquement des DITEP."
+        },
+        {
+          "nom": "Santé",
+          "resume": "Prévenir et soigner, du bébé au jeune adulte : petite enfance, adolescence, prévention."
+        }
+      ],
+      "pole_du_theme": ""
+    },
+    "contraintes": [
+      {
+        "titre": "L'argent",
+        "en_clair": "Une solution qui suppose un budget nouveau ou des postes en plus ne se fera pas.",
+        "points": [
+          "**73 % des charges sont des charges de personnel**, et **80 % de l'activité est en gestion encadrée** : le budget est négocié et contrôlé par le financeur, qui ne paie pas ce qu'il n'a pas arbitré.",
+          "2024 a été fortement déficitaire. Le retour à l'équilibre en 2025 a coûté un **plan d'économies de 1,6 M€**."
+        ]
+      },
+      {
+        "titre": "Les données",
+        "en_clair": "La question n'est pas seulement « est-ce que ça marche », mais « où vont les données, et qui pourra relire ça dans dix ans ».",
+        "points": [
+          "Les personnes accompagnées sont **vulnérables au sens du RGPD**, et les données de santé imposent un hébergement **certifié HDS**.",
+          "Les écrits sont **conservés durablement**, et la personne concernée peut demander à les lire des années plus tard."
+        ]
+      },
+      {
+        "titre": "L'existant",
+        "en_clair": "Ce qui se branche sur l'existant a une chance ; un outil de plus, à ouvrir et à administrer, en a beaucoup moins.",
+        "points": [
+          "Le SI en place : **intranet SharePoint**, **DUI** (dossier usager informatisé, généralisé avec le Ségur numérique), **Octime** (temps de travail), **Fusion** (qualité et risques, en cours de déploiement).",
+          "Orientation annoncée par la DSI pour 2026 : **cloisonnement plus strict des accès et des réseaux**."
+        ]
+      }
+    ],
+    "detail": {
+      "histoire": "Historiquement, la Sauvegarde du Nord a construit son projet autour des besoins liés à l'enfance et l'adolescence. Aujourd'hui, l'association a élargi son action pour intervenir auprès d'autres publics, dans des domaines tels que le handicap, la santé, l'inclusion sociale et l'addictologie. Elle œuvre sans relâche pour répondre aux besoins des enfants, des jeunes, des personnes seules, des familles en situation de vulnérabilité. Elle agit chaque jour au plus près des réalités du terrain avec une approche humaine, pluridisciplinaire et coordonnée.",
+      "poles": [
+        {
+          "nom": "Protection de l'Enfance",
+          "couvre": "Tous les enfants ont droit à protection et assistance ainsi qu'à un environnement favorable pour pouvoir jouer pleinement leur rôle dans la société, conformément à la Convention internationale des droits de l'enfant. C'est au nom de ces droits que le pôle Protection de l'Enfance intervient dans l'éducation d'enfants en situation de vulnérabilité pour leur permettre de grandir dans la responsabilité et la liberté. Notre accompagnement repose sur : l'appui à la parentalité, l'accueil et l'hébergement, les dispositifs de soutien. Les dispositifs : maison d'enfants, médiation familiale, mineurs non accompagnés, AEMO (accompagnement des familles dans le cadre de mesures éducatives ou judiciaires), centre des apprentissages, enquêtes sociales, réparation pénale, éviction des auteurs de violences conjugales."
+        },
+        {
+          "nom": "Inclusion Sociale",
+          "couvre": "Notre société crée des phénomènes d'inégalités et d'exclusion sociale qui doivent être combattus. Au nom des droits fondamentaux et des valeurs républicaines, le pôle Inclusion Sociale agit auprès des personnes précarisées pour qu'elles améliorent leurs conditions de vie, retrouvent leur capacité à faire des choix et exercent pleinement leur place dans la société. Notre accompagnement : appui social, hébergement d'urgence et accès à l'emploi. Les dispositifs : chantiers d'insertion, centres d'hébergement, maraudes, maisons de relais, accompagnement Tsiganes et voyageurs."
+        },
+        {
+          "nom": "Addictologie",
+          "couvre": "Si l'addiction représente un problème à la fois individuel et collectif avec des conséquences sanitaires et sociales parfois graves, le pôle Addictologie ne réduit pas les personnes à leurs pratiques addictives. Il offre et promeut un large spectre d'accompagnements pour répondre à la diversité des situations, en refusant les approches strictement répressives. L'accompagnement repose sur : accueil, hébergement, accompagnement social. Les dispositifs : CAARUD, CSAPA, communauté thérapeutique, RDR à distance, centre de méthadone."
+        },
+        {
+          "nom": "Handicap",
+          "couvre": "Le pôle Handicap favorise l'inclusion des enfants et adolescent·e·s en situation de handicap pour leur permettre, autant qu'il leur est possible, de vivre et de grandir comme n'importe quel·le autre enfant. Il contribue à la lutte contre les discriminations à leur égard, notamment en matière de scolarisation et de vie sociale. Les dispositifs : uniquement des DITEP."
+        },
+        {
+          "nom": "Santé",
+          "couvre": "La santé des enfants et des jeunes est un investissement pour l'avenir. Le pôle Santé accompagne le développement de l'enfant, du bébé jusqu'au jeune adulte, pour prévenir les difficultés de santé, sociales ou éducatives. Il offre un accompagnement en soins, en prévention ou en éducation et promotion de la santé pour répondre à la diversité des situations. L'accompagnement repose sur : petite enfance/enfance, adolescence, prévention."
+        }
+      ],
+      "territoire": "Territoire : le Nord et le Pas-de-Calais. Lille, Roubaix, Tourcoing, Armentières, Lambersart, Tressin, Valenciennes, Douai, Cambrai, Avesnes, Maubeuge, le bassin minier.",
+      "chiffres": [
+        "1 791 professionnels, 71 % de femmes, 42 ans de moyenne d'âge, 8 ans d'ancienneté moyenne",
+        "84,5 % en CDI, 175 embauches en CDI dont 68 transformations de CDD",
+        "177 bénévoles, dont 32 administrateurs, et 23 volontaires en service civique",
+        "Index égalité femmes-hommes : 99/100 pour la sixième année consécutive",
+        "Métiers : 54 % d'intervention sociale, le reste en soin, management, administration, gestion, logistique",
+        "42 141 personnes accueillies ou accompagnées",
+        "140 services répartis sur les cinq pôles",
+        "113,3 M€ de produits, 111,8 M€ de charges, résultat +1,49 M€ (1,37 % de la masse budgétaire)",
+        "73 % des charges sont des charges de personnel",
+        "77 % des produits viennent de la tarification publique, 15 % de subventions d'exploitation",
+        "80 % de l'activité est sous « gestion encadrée » (budget négocié et contrôlé par le financeur), 20 % sous « gestion libre » (financements remis en cause chaque année)",
+        "2024 avait été fortement déficitaire. Le retour à l'équilibre a coûté un plan d'économies de 1,6 M€"
+      ],
+      "gouvernance": [
+        "**Assemblée générale**, puis **Conseil d'administration** de 17 administrateurs bénévoles issus de la société civile, présidé par **François Leurs**",
+        "Cinq **conseils d'orientation stratégique**, un par pôle, chacun présidé par un vice-président délégué",
+        "**Direction générale** : Frédéric Rouvière (directeur général), Fabienne Lemaire (directrice générale adjointe)",
+        "**Fonctions supports au siège** (Lambersart) : ressources humaines, mécénat et communication, affaires juridiques, gestion comptable et financière, systèmes d'information",
+        "Chaque pôle a son directeur, chaque plateforme ou dispositif son directeur et ses chefs de service"
+      ],
+      "convictions": [
+        "**Scolarisation, formation, emploi.** Les adolescents de 15 ans placés ou hébergés dans un établissement sont trois fois plus souvent déscolarisés que leur génération. L'association s'engage à ce que tous les enfants qu'elle accompagne soient scolarisés.",
+        "**Désinstitutionnalisation.** Sortir des murs, aller vers les personnes, construire des parcours plutôt que des prises en charge, sans renoncer pour autant aux établissements quand ils protègent.",
+        "**Citoyenneté, participation, pouvoir d'agir.** L'approche DPA-PC irrigue les pratiques : partir du rythme et des priorités de la personne, pas de celles du professionnel.",
+        "**La boussole éthique.** L'association se réfère à quatre « caps » posés par le sociologue qui l'accompagne. Le **compagnonnage** : ce n'est plus le professionnel qu'on désigne comme « référent », c'est la relation elle-même qui fait référence. Le **pouvoir d'agir** : le professionnel est un « ressourceur », orpailleur, parfois le seul à voir encore chez l'autre les capacités de rebondir. L'**ouverture** : il ne se pense pas en référent mais en faiseur de liens, et la question qui l'obsède est « qui, à part nous, peut t'aider ? ». L'**expérimentation** : imaginer sans cesse de nouvelles manières d'aider."
+      ],
+      "numerique": [
+        "Intranet SharePoint, alimenté par les directions supports. Bibliothèques documentaires distinctes : RH, Informatique, RSE, Mécénat, Communication, Véhicules et bâtiments, documents institutionnels",
+        "**Octime** : logiciel de gestion des temps, déploiement achevé en 2025",
+        "**Fusion** : outil qualité et gestion des risques, en cours de déploiement",
+        "**Dossier Usager Informatisé (DUI)** : généralisé dans le cadre du Ségur numérique, hébergé sur des serveurs certifiés HDS",
+        "VPN généralisé, double authentification, ticketing support, campagnes de phishing simulé",
+        "Orientation 2026 annoncée par la DSI : cloisonnement plus strict des accès et des réseaux"
+      ],
+      "conformite": [
+        "**Évaluations HAS.** Chaque établissement et service est évalué selon le référentiel de la Haute Autorité de Santé. En 2025 : la réparation pénale, la MJIE, quatre micro-structures, le placement familial spécialisé, les DITEP Flandre et Didier Motte.",
+        "**Contrôles des financeurs.** ARS Hauts-de-France et Département du Nord contrôlent le fonctionnement et la justification de l'emploi des fonds. Un CPOM (contrat pluriannuel d'objectifs et de moyens) a été signé en 2025 pour les pôles Santé et Handicap.",
+        "**Protection des données.** Les personnes accompagnées sont vulnérables au sens du RGPD. Les données de santé imposent un hébergement HDS. Les écrits sont conservés durablement et peuvent être consultés plus tard par la personne concernée."
+      ]
+    },
+    "passation": {
+      "body": "Bienvenue dans le hackathon eXaltemps Solidaire.\nVotre squad accompagne La Sauvegarde du Nord, association du Nord qui accompagne 42 141 personnes avec 1 791 professionnels, sur cinq pôles, de la protection de l'enfance à l'addictologie.\nDes professionnels de l'association sont dans la salle avec vous : ce sont eux qui connaissent le terrain, allez les chercher.\nVous trouverez ci-dessous le thème confié à votre équipe : des faits, des chiffres, et ce que des professionnels en disent. On n'a volontairement rien conclu à votre place.\nVotre mission en 1h30 : formuler LA problématique qui mérite d'être traitée, la cadrer avec les agents, et produire le brief que les builders transformeront en solution. Le Master anime, les professionnels tranchent sur le métier. Bon cadrage."
+    },
+    "theme": {
+      "id": "sdn-acces-a-l-information",
+      "libelle": "L'accès des professionnels à l'information de l'association",
+      "description": "La Sauvegarde du Nord emploie 1 791 professionnels répartis sur 140 services, de Dunkerque à Maubeuge. Le siège est à Lambersart. L'information utile au quotidien, elle, est produite par sept directions supports et déposée sur un intranet SharePoint.",
+      "comprendre": "La Sauvegarde du Nord emploie 1 791 professionnels répartis sur 140 services, de Dunkerque à Maubeuge. Le siège est à Lambersart. L'information utile au quotidien, elle,\nest produite par sept directions supports et déposée sur un intranet SharePoint.\n\nEntre la personne qui dépose le document et la personne qui en a besoin, il y a souvent\nsoixante kilomètres, un décalage horaire de service, et une organisation dont on ne connaît\npas le nom du bon interlocuteur.\n\nLe résultat est visible dans un fichier que l'association a produit elle-même : une liste\nd'environ 120 questions que les directions supports reçoivent assez souvent pour avoir pris\nla peine de les écrire.\n\nVous n'avez pas à résoudre quoi que ce soit dans cette page.",
+      "avertissement_verbatims": "Les paroles ci-dessous sont simulées. Aucun entretien n'a encore été mené sur ce thème. Elles sont construites à partir des documents internes de l'association et de la liste réelle des questions recensées par ses directions supports. Elles servent à vous faire entrer dans le sujet, pas à vous en donner la réponse : c'est à vous d'aller les confirmer, les nuancer ou les démolir auprès des professionnels le jour J. Les faits et les chiffres, eux, sont réels et sourcés.",
+      "limites": [
+        "**Le droit d'en connaître.** Tout le monde n'a pas vocation à accéder à tout. Le modèle de droits fait partie du sujet, pas de ses options.",
+        "**Aucune donnée de personne accompagnée** n'a sa place ici. Ce thème porte sur l'information de l'association, pas sur les dossiers des usagers.",
+        "**Les données des salariés sont des données personnelles.** Une information RH générale et une information RH individuelle ne se traitent pas de la même façon.",
+        "**Une réponse fausse est pire qu'une absence de réponse** sur un sujet de droit du travail, de rémunération ou de procédure. La source doit rester traçable.",
+        "**Le cloisonnement des accès est une orientation actée de la DSI pour 2026.** Une proposition qui l'ignore sera écartée."
+      ],
+      "a_verifier": [
+        "Qui sont réellement les personnes qui reçoivent ces questions, et combien de temps cela leur prend",
+        "Ce qu'un nouvel arrivant reçoit aujourd'hui, concrètement, le premier jour",
+        "Ce qui fait qu'un professionnel renonce à chercher",
+        "Quels documents font autorité, qui les met à jour, et à quel rythme",
+        "Ce qui n'a pas le droit de sortir d'un service, et pourquoi"
+      ],
+      "pieces": [
+        {
+          "id": "questions-agent-interne",
+          "titre": "Les questions que l'association veut pouvoir poser à un agent interne",
+          "format": "DOCX"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "id": "faits",
+        "theme": "neutral",
+        "titre": "Le cadre, en quelques faits",
+        "points": [
+          "**Les gens à servir.** 1 791 professionnels, 177 bénévoles, 23 volontaires en service civique, des stagiaires. 140 services. 54 % des effectifs sont en intervention sociale, donc rarement devant un ordinateur.",
+          "**Le flux d'arrivants est permanent.** 175 embauches en CDI sur la seule année 2025, auxquelles s'ajoutent les CDD, les contrats en alternance et 8 % de contrats d'insertion. Le secteur est en tension de recrutement et l'association s'est engagée dans un dispositif de fidélisation des contrats courts, via une coopérative d'intérim. Trois journées d'accueil ont été organisées en 2025, réunissant un peu plus de 100 salariés. Le livret d'accueil et les parcours d'intégration différenciés sont annoncés pour 2026 : ils n'existent pas encore.",
+          "**Le fonds documentaire.** Huit bibliothèques distinctes sur l'intranet : documents institutionnels, ressources humaines, informatique, RSE, mécénat, communication, véhicules et bâtiments, médiathèque. L'export transmis pèse 4 Go. Une fois les images et les vidéos mises de côté, **il reste 315 documents porteurs de texte, soit 418 Mo**. Les 3,5 Go restants sont des médias, dont 2,5 Go pour quatorze vidéos d'interviews de professionnels.",
+          "**Les questions réellement posées.** Environ 120, réparties en sept domaines : ressources humaines, formation, temps de travail et absences, dialogue social, informatique, RSE, mécénat, communication. Deux blocs se détachent :",
+          "* **Octime**, le logiciel de gestion des temps dont le déploiement s'est achevé en 2025, concentre à lui seul une quinzaine de questions : comment se connecter, mot de passe oublié, consulter son planning, poser un congé, savoir si la demande est acceptée, lire ses compteurs, que faire en cas d'erreur de compteur. * **La communication** en concentre une vingtaine, presque toutes de très petites demandes : j'ai besoin d'un flyer, d'une affiche, d'une signalétique, je dois floquer un véhicule de service, où est la charte graphique, ai-je le droit d'utiliser Canva, existe-t-il un modèle de présentation.",
+          "**Une contrainte qui tire dans l'autre sens.** L'orientation annoncée par la direction des systèmes d'information pour 2026 est un cloisonnement **plus strict** des accès au réseau et aux données. Ouvrir l'information et cloisonner les accès sont deux mouvements simultanés, et ils ne vont pas spontanément ensemble.",
+          "**Tout le monde ne doit pas tout voir.** Les grilles tarifaires de la complémentaire santé, les documents d'un CSE de pôle, les fiches RH individuelles, les éléments préparatoires d'une négociation : le besoin d'en connaître et le droit d'en connaître ne se recouvrent pas."
+        ],
+        "verbatims": [
+          {
+            "texte": "Je suis arrivée en février. Au bout de six mois, je découvre encore des choses qui existaient depuis toujours. La prime, le forfait mobilité, la formation que j'aurais pu demander en janvier. Personne ne me les a cachées. Elles étaient quelque part.",
+            "qui": "Éducatrice spécialisée, sept mois d'ancienneté"
+          },
+          {
+            "texte": "La règle, chez nous, c'est qu'on demande Sandrine. Sandrine est là depuis dix-neuf ans et Sandrine sait. Le jour où Sandrine part à la retraite, je ne sais pas ce qu'on fait.",
+            "qui": "Chef de service, plateforme d'Avesnes-Maubeuge"
+          },
+          {
+            "texte": "Je passe mes journées à répondre trois fois par semaine aux mêmes quatre questions. Les congés, l'arrêt maladie, la mutuelle, Octime. Je ne me plains pas : si les gens m'appellent, c'est qu'ils ne trouvent pas. Mais ce n'est pas ça, mon métier.",
+            "qui": "Assistante ressources humaines de proximité"
+          },
+          {
+            "texte": "J'ai mon dossier à moi sur mon bureau. Une quinzaine de PDF que j'ai téléchargés au fil des années parce que je n'avais pas envie de les rechercher. Je sais très bien que trois d'entre eux ne sont plus à jour. Je ne sais pas lesquels.",
+            "qui": "Chef de service"
+          },
+          {
+            "texte": "Je travaille de nuit. Quand j'ai une question, le siège est fermé. Quand le siège est ouvert, je dors.",
+            "qui": "Surveillant de nuit, maison d'enfants"
+          },
+          {
+            "texte": "On me demande un flyer pour une porte ouverte dans douze jours. On me demande la charte graphique. On me demande si le logo peut être mis en blanc. Sur une semaine, j'ai une quinzaine de demandes de ce calibre, et à côté j'ai le rapport annuel à sortir.",
+            "qui": "Chargée de communication"
+          },
+          {
+            "texte": "Le problème n'est pas qu'il n'y a rien sur l'intranet. C'est qu'il y a tout. Je cherche la procédure en cas d'accident avec mon véhicule personnel, je tombe sur quatre documents qui parlent de véhicules et je ne sais pas lequel s'applique à moi.",
+            "qui": "Éducateur spécialisé"
+          },
+          {
+            "texte": "On a une bénévole formidable qui accompagne une dame en apprentissage du français depuis deux ans. Elle n'a pas d'adresse mail de l'association. Tout ce qu'elle sait, elle le sait parce que quelqu'un le lui a dit.",
+            "qui": "Chef de service, dispositif d'inclusion"
+          },
+          {
+            "texte": "Octime, c'est très bien. Mais depuis qu'on l'a déployé, on a créé un métier : celui qui explique Octime.",
+            "qui": "Directrice de plateforme"
+          },
+          {
+            "texte": "Je ne veux pas d'un système où n'importe qui tape le nom d'un collègue et récupère sa situation. On parle de gens, y compris de nos propres salariés. L'ouverture, oui, mais pas à n'importe quel prix. L'accès doit reposer sur des mécanismes d'habilitation, de contrôle des droits, de traçabilité et de respect du principe du moindre privilège.",
+            "qui": "Responsable des systèmes d'information"
+          },
+          {
+            "texte": "Franchement ? Quand je ne trouve pas, je ne cherche pas longtemps. J'ai une famille à voir à quatorze heures.",
+            "qui": "Travailleuse sociale, milieu ouvert"
+          }
+        ]
+      }
+    ],
+    "lexique": [
+      {
+        "sigle": "AEMO",
+        "definition": "Assistance éducative en milieu ouvert : mesure judiciaire de suivi d'un enfant qui reste dans sa famille"
+      },
+      {
+        "sigle": "AEMO-R",
+        "definition": "AEMO renforcée"
+      },
+      {
+        "sigle": "MJIE",
+        "definition": "Mesure judiciaire d'investigation éducative : évaluation d'une situation, à la demande du juge"
+      },
+      {
+        "sigle": "ASE",
+        "definition": "Aide sociale à l'enfance (compétence du Département)"
+      },
+      {
+        "sigle": "MECS",
+        "definition": "Maison d'enfants à caractère social"
+      },
+      {
+        "sigle": "MNA",
+        "definition": "Mineur non accompagné"
+      },
+      {
+        "sigle": "DITEP",
+        "definition": "Dispositif institut thérapeutique, éducatif et pédagogique"
+      },
+      {
+        "sigle": "SESSAD",
+        "definition": "Service d'éducation spéciale et de soins à domicile"
+      },
+      {
+        "sigle": "CMPP / CAMSP",
+        "definition": "Centre médico-psycho-pédagogique / centre d'action médico-sociale précoce"
+      },
+      {
+        "sigle": "CSAPA / CAARUD",
+        "definition": "Structures de soin et de réduction des risques en addictologie"
+      },
+      {
+        "sigle": "CHRS / CHU",
+        "definition": "Centre d'hébergement et de réinsertion sociale / centre d'hébergement d'urgence"
+      },
+      {
+        "sigle": "ESSMS",
+        "definition": "Établissement ou service social et médico-social"
+      },
+      {
+        "sigle": "ARS",
+        "definition": "Agence régionale de santé, financeur et contrôleur"
+      },
+      {
+        "sigle": "HAS",
+        "definition": "Haute Autorité de santé, qui fixe le référentiel d'évaluation"
+      },
+      {
+        "sigle": "DUI",
+        "definition": "Dossier usager informatisé"
+      },
+      {
+        "sigle": "CPOM",
+        "definition": "Contrat pluriannuel d'objectifs et de moyens"
+      },
+      {
+        "sigle": "DPA-PC",
+        "definition": "Développement du pouvoir d'agir des personnes et des collectivités"
+      },
+      {
+        "sigle": "QVCT",
+        "definition": "Qualité de vie et conditions de travail"
+      }
+    ],
+    "annexe": {
+      "intro": "La fiche de l'association, à consulter si besoin.",
+      "activite": "L'association intervient auprès de personnes en situation de vulnérabilité économique, sociale ou de santé. Historiquement centrée sur l'enfance et l'adolescence, elle s'adresse aujourd'hui aussi aux adultes. Son activité est répartie en cinq pôles.\n\n**Protection de l'Enfance.** Tous les enfants ont droit à protection et assistance ainsi qu'à un environnement favorable pour pouvoir jouer pleinement leur rôle dans la société, conformément à la Convention internationale des droits de l'enfant. C'est au nom de ces droits que le pôle Protection de l'Enfance intervient dans l'éducation d'enfants en situation de vulnérabilité pour leur permettre de grandir dans la responsabilité et la liberté. Notre accompagnement repose sur : l'appui à la parentalité, l'accueil et l'hébergement, les dispositifs de soutien. Les dispositifs : maison d'enfants, médiation familiale, mineurs non accompagnés, AEMO (accompagnement des familles dans le cadre de mesures éducatives ou judiciaires), centre des apprentissages, enquêtes sociales, réparation pénale, éviction des auteurs de violences conjugales.\n\n**Inclusion Sociale.** Notre société crée des phénomènes d'inégalités et d'exclusion sociale qui doivent être combattus. Au nom des droits fondamentaux et des valeurs républicaines, le pôle Inclusion Sociale agit auprès des personnes précarisées pour qu'elles améliorent leurs conditions de vie, retrouvent leur capacité à faire des choix et exercent pleinement leur place dans la société. Notre accompagnement : appui social, hébergement d'urgence et accès à l'emploi. Les dispositifs : chantiers d'insertion, centres d'hébergement, maraudes, maisons de relais, accompagnement Tsiganes et voyageurs.\n\n**Addictologie.** Si l'addiction représente un problème à la fois individuel et collectif avec des conséquences sanitaires et sociales parfois graves, le pôle Addictologie ne réduit pas les personnes à leurs pratiques addictives. Il offre et promeut un large spectre d'accompagnements pour répondre à la diversité des situations, en refusant les approches strictement répressives. L'accompagnement repose sur : accueil, hébergement, accompagnement social. Les dispositifs : CAARUD, CSAPA, communauté thérapeutique, RDR à distance, centre de méthadone.\n\n**Handicap.** Le pôle Handicap favorise l'inclusion des enfants et adolescent·e·s en situation de handicap pour leur permettre, autant qu'il leur est possible, de vivre et de grandir comme n'importe quel·le autre enfant. Il contribue à la lutte contre les discriminations à leur égard, notamment en matière de scolarisation et de vie sociale. Les dispositifs : uniquement des DITEP.\n\n**Santé.** La santé des enfants et des jeunes est un investissement pour l'avenir. Le pôle Santé accompagne le développement de l'enfant, du bébé jusqu'au jeune adulte, pour prévenir les difficultés de santé, sociales ou éducatives. Il offre un accompagnement en soins, en prévention ou en éducation et promotion de la santé pour répondre à la diversité des situations. L'accompagnement repose sur : petite enfance/enfance, adolescence, prévention.",
+      "equipe": "**Assemblée générale**, puis **Conseil d'administration** de 17 administrateurs bénévoles issus de la société civile, présidé par **François Leurs** Cinq **conseils d'orientation stratégique**, un par pôle, chacun présidé par un vice-président délégué **Direction générale** : Frédéric Rouvière (directeur général), Fabienne Lemaire (directrice générale adjointe)",
+      "si": [
+        "Intranet SharePoint, alimenté par les directions supports. Bibliothèques documentaires distinctes : RH, Informatique, RSE, Mécénat, Communication, Véhicules et bâtiments, documents institutionnels",
+        "**Octime** : logiciel de gestion des temps, déploiement achevé en 2025",
+        "**Fusion** : outil qualité et gestion des risques, en cours de déploiement",
+        "**Dossier Usager Informatisé (DUI)** : généralisé dans le cadre du Ségur numérique, hébergé sur des serveurs certifiés HDS",
+        "VPN généralisé, double authentification, ticketing support, campagnes de phishing simulé",
+        "Orientation 2026 annoncée par la DSI : cloisonnement plus strict des accès et des réseaux"
+      ]
+    },
+    "users": []
+  },
+  "theme": {
+    "id": "sdn-acces-a-l-information",
+    "libelle": "L'accès des professionnels à l'information de l'association",
+    "description": "La Sauvegarde du Nord emploie 1 791 professionnels répartis sur 140 services, de Dunkerque à Maubeuge. Le siège est à Lambersart. L'information utile au quotidien, elle, est produite par sept directions supports et déposée sur un intranet SharePoint.",
+    "comprendre": "La Sauvegarde du Nord emploie 1 791 professionnels répartis sur 140 services, de Dunkerque à Maubeuge. Le siège est à Lambersart. L'information utile au quotidien, elle,\nest produite par sept directions supports et déposée sur un intranet SharePoint.\n\nEntre la personne qui dépose le document et la personne qui en a besoin, il y a souvent\nsoixante kilomètres, un décalage horaire de service, et une organisation dont on ne connaît\npas le nom du bon interlocuteur.\n\nLe résultat est visible dans un fichier que l'association a produit elle-même : une liste\nd'environ 120 questions que les directions supports reçoivent assez souvent pour avoir pris\nla peine de les écrire.\n\nVous n'avez pas à résoudre quoi que ce soit dans cette page.",
+    "avertissement_verbatims": "Les paroles ci-dessous sont simulées. Aucun entretien n'a encore été mené sur ce thème. Elles sont construites à partir des documents internes de l'association et de la liste réelle des questions recensées par ses directions supports. Elles servent à vous faire entrer dans le sujet, pas à vous en donner la réponse : c'est à vous d'aller les confirmer, les nuancer ou les démolir auprès des professionnels le jour J. Les faits et les chiffres, eux, sont réels et sourcés.",
+    "faits": [
+      "**Les gens à servir.** 1 791 professionnels, 177 bénévoles, 23 volontaires en service civique, des stagiaires. 140 services. 54 % des effectifs sont en intervention sociale, donc rarement devant un ordinateur.",
+      "**Le flux d'arrivants est permanent.** 175 embauches en CDI sur la seule année 2025, auxquelles s'ajoutent les CDD, les contrats en alternance et 8 % de contrats d'insertion. Le secteur est en tension de recrutement et l'association s'est engagée dans un dispositif de fidélisation des contrats courts, via une coopérative d'intérim. Trois journées d'accueil ont été organisées en 2025, réunissant un peu plus de 100 salariés. Le livret d'accueil et les parcours d'intégration différenciés sont annoncés pour 2026 : ils n'existent pas encore.",
+      "**Le fonds documentaire.** Huit bibliothèques distinctes sur l'intranet : documents institutionnels, ressources humaines, informatique, RSE, mécénat, communication, véhicules et bâtiments, médiathèque. L'export transmis pèse 4 Go. Une fois les images et les vidéos mises de côté, **il reste 315 documents porteurs de texte, soit 418 Mo**. Les 3,5 Go restants sont des médias, dont 2,5 Go pour quatorze vidéos d'interviews de professionnels.",
+      "**Les questions réellement posées.** Environ 120, réparties en sept domaines : ressources humaines, formation, temps de travail et absences, dialogue social, informatique, RSE, mécénat, communication. Deux blocs se détachent :",
+      "* **Octime**, le logiciel de gestion des temps dont le déploiement s'est achevé en 2025, concentre à lui seul une quinzaine de questions : comment se connecter, mot de passe oublié, consulter son planning, poser un congé, savoir si la demande est acceptée, lire ses compteurs, que faire en cas d'erreur de compteur. * **La communication** en concentre une vingtaine, presque toutes de très petites demandes : j'ai besoin d'un flyer, d'une affiche, d'une signalétique, je dois floquer un véhicule de service, où est la charte graphique, ai-je le droit d'utiliser Canva, existe-t-il un modèle de présentation.",
+      "**Une contrainte qui tire dans l'autre sens.** L'orientation annoncée par la direction des systèmes d'information pour 2026 est un cloisonnement **plus strict** des accès au réseau et aux données. Ouvrir l'information et cloisonner les accès sont deux mouvements simultanés, et ils ne vont pas spontanément ensemble.",
+      "**Tout le monde ne doit pas tout voir.** Les grilles tarifaires de la complémentaire santé, les documents d'un CSE de pôle, les fiches RH individuelles, les éléments préparatoires d'une négociation : le besoin d'en connaître et le droit d'en connaître ne se recouvrent pas."
+    ],
+    "verbatims": [
+      {
+        "texte": "Je suis arrivée en février. Au bout de six mois, je découvre encore des choses qui existaient depuis toujours. La prime, le forfait mobilité, la formation que j'aurais pu demander en janvier. Personne ne me les a cachées. Elles étaient quelque part.",
+        "qui": "Éducatrice spécialisée, sept mois d'ancienneté"
+      },
+      {
+        "texte": "La règle, chez nous, c'est qu'on demande Sandrine. Sandrine est là depuis dix-neuf ans et Sandrine sait. Le jour où Sandrine part à la retraite, je ne sais pas ce qu'on fait.",
+        "qui": "Chef de service, plateforme d'Avesnes-Maubeuge"
+      },
+      {
+        "texte": "Je passe mes journées à répondre trois fois par semaine aux mêmes quatre questions. Les congés, l'arrêt maladie, la mutuelle, Octime. Je ne me plains pas : si les gens m'appellent, c'est qu'ils ne trouvent pas. Mais ce n'est pas ça, mon métier.",
+        "qui": "Assistante ressources humaines de proximité"
+      },
+      {
+        "texte": "J'ai mon dossier à moi sur mon bureau. Une quinzaine de PDF que j'ai téléchargés au fil des années parce que je n'avais pas envie de les rechercher. Je sais très bien que trois d'entre eux ne sont plus à jour. Je ne sais pas lesquels.",
+        "qui": "Chef de service"
+      },
+      {
+        "texte": "Je travaille de nuit. Quand j'ai une question, le siège est fermé. Quand le siège est ouvert, je dors.",
+        "qui": "Surveillant de nuit, maison d'enfants"
+      },
+      {
+        "texte": "On me demande un flyer pour une porte ouverte dans douze jours. On me demande la charte graphique. On me demande si le logo peut être mis en blanc. Sur une semaine, j'ai une quinzaine de demandes de ce calibre, et à côté j'ai le rapport annuel à sortir.",
+        "qui": "Chargée de communication"
+      },
+      {
+        "texte": "Le problème n'est pas qu'il n'y a rien sur l'intranet. C'est qu'il y a tout. Je cherche la procédure en cas d'accident avec mon véhicule personnel, je tombe sur quatre documents qui parlent de véhicules et je ne sais pas lequel s'applique à moi.",
+        "qui": "Éducateur spécialisé"
+      },
+      {
+        "texte": "On a une bénévole formidable qui accompagne une dame en apprentissage du français depuis deux ans. Elle n'a pas d'adresse mail de l'association. Tout ce qu'elle sait, elle le sait parce que quelqu'un le lui a dit.",
+        "qui": "Chef de service, dispositif d'inclusion"
+      },
+      {
+        "texte": "Octime, c'est très bien. Mais depuis qu'on l'a déployé, on a créé un métier : celui qui explique Octime.",
+        "qui": "Directrice de plateforme"
+      },
+      {
+        "texte": "Je ne veux pas d'un système où n'importe qui tape le nom d'un collègue et récupère sa situation. On parle de gens, y compris de nos propres salariés. L'ouverture, oui, mais pas à n'importe quel prix. L'accès doit reposer sur des mécanismes d'habilitation, de contrôle des droits, de traçabilité et de respect du principe du moindre privilège.",
+        "qui": "Responsable des systèmes d'information"
+      },
+      {
+        "texte": "Franchement ? Quand je ne trouve pas, je ne cherche pas longtemps. J'ai une famille à voir à quatorze heures.",
+        "qui": "Travailleuse sociale, milieu ouvert"
+      }
+    ],
+    "limites": [
+      "**Le droit d'en connaître.** Tout le monde n'a pas vocation à accéder à tout. Le modèle de droits fait partie du sujet, pas de ses options.",
+      "**Aucune donnée de personne accompagnée** n'a sa place ici. Ce thème porte sur l'information de l'association, pas sur les dossiers des usagers.",
+      "**Les données des salariés sont des données personnelles.** Une information RH générale et une information RH individuelle ne se traitent pas de la même façon.",
+      "**Une réponse fausse est pire qu'une absence de réponse** sur un sujet de droit du travail, de rémunération ou de procédure. La source doit rester traçable.",
+      "**Le cloisonnement des accès est une orientation actée de la DSI pour 2026.** Une proposition qui l'ignore sera écartée."
+    ],
+    "a_verifier": [
+      "Qui sont réellement les personnes qui reçoivent ces questions, et combien de temps cela leur prend",
+      "Ce qu'un nouvel arrivant reçoit aujourd'hui, concrètement, le premier jour",
+      "Ce qui fait qu'un professionnel renonce à chercher",
+      "Quels documents font autorité, qui les met à jour, et à quel rythme",
+      "Ce qui n'a pas le droit de sortir d'un service, et pourquoi"
+    ],
+    "apres_problematique": {
+      "enjeux": [
+        "Des droits non exercés faute d'être connus, dans une association qui en fait un principe",
+        "Du temps de professionnels supports consommé en réponses répétitives",
+        "Une intégration qui repose sur la disponibilité d'un collègue plutôt que sur un dispositif",
+        "Une connaissance concentrée sur quelques anciens, dans un secteur où le turnover augmente",
+        "Des documents obsolètes qui continuent de circuler en copies locales"
+      ],
+      "question_de_lassociation": "Comment un professionnel de La Sauvegarde du Nord, où qu'il soit et quelle que soit son ancienneté, obtient-il une réponse fiable à une question ordinaire, sans déranger personne et sans voir ce qu'il n'a pas à voir ?"
+    },
+    "pieces": [
+      {
+        "id": "questions-agent-interne",
+        "titre": "Les questions que l'association veut pouvoir poser à un agent interne",
+        "fichier": "questions-agent-interne.docx"
+      }
+    ],
+    "briefing_master": {
+      "intro": "Pistes d'atterrissage pour « L'accès des professionnels à l'information de l'association ».",
+      "pistes": [
+        "**Recherche conversationnelle sur le fonds documentaire.** L'atterrissage attendu, celui que l'association a formulé. Le corpus est prêt et de taille raisonnable : 315 documents, 418 Mo. Le vrai travail n'est pas l'indexation, il est dans la qualité des réponses et la citation de la source.",
+        "**Parcours du nouvel arrivant.** L'association n'a ni livret d'accueil ni parcours d'intégration structuré : les deux sont annoncés pour 2026. Une équipe qui se saisit de la première semaine d'un salarié produit quelque chose d'utile immédiatement, et qui arrive au bon moment dans le calendrier interne.",
+        "**Désengorgement d'une direction support.** Cibler la communication ou les ressources humaines de proximité, dont les questions récurrentes sont déjà listées. Périmètre étroit, effet mesurable, démontrable en trois heures.",
+        "**Modèle de droits et besoin d'en connaître.** Sujet pour une équipe à l'aise sur l'architecture. Peu spectaculaire en démonstration, mais c'est la question qui décidera si l'association déploie ou non.",
+        "**Qualification et fraîcheur du fonds.** Qui fait autorité, qu'est-ce qui est périmé, quel document répond à quelle question. Sujet ingrat, valeur réelle très élevée."
+      ],
+      "vigilance": [
+        "**Le piège du moteur de recherche.** Une équipe va livrer une barre de recherche sur un corpus et considérer le sujet traité. La question réelle n'est pas de retrouver un document, c'est d'obtenir une réponse utilisable par quelqu'un qui n'a pas le vocabulaire de la direction qui l'a rédigé. Un professionnel ne cherche pas « forfait mobilités durables », il cherche « est-ce qu'on me rembourse si je viens à vélo ».",
+        "**Le piège du volume.** Les 4 Go impressionnent et vont pousser à faire de l'ingestion de masse. Or 3,5 Go sont des médias, dont 2,5 Go pour quatorze vidéos. Une équipe qui passe son après-midi sur de la transcription vidéo aura brûlé le hackathon pour un gain marginal. À dire tôt.",
+        "**Le piège de la réponse inventée.** Sur un sujet de congés, de rémunération ou de procédure d'arrêt maladie, une réponse plausible et fausse crée un problème juridique réel pour l'association. Toute proposition doit répondre à « d'où vient cette réponse » et à « que se passe-t-il quand le système ne sait pas ».",
+        "**Le piège de l'accès universel.** Le réflexe sera d'ouvrir tout le fonds à tout le monde. Deux obstacles : le droit d'en connaître, et le fait que la DSI a acté pour 2026 un cloisonnement plus strict des accès. Une équipe qui propose l'inverse de la trajectoire de la DSI se fera arrêter net.",
+        "**Le piège du poste de travail.** 54 % des effectifs sont en intervention sociale. Beaucoup travaillent en horaires décalés, en déplacement, parfois de nuit. Une solution pensée pour quelqu'un assis devant un écran de bureau rate la majorité de la cible.",
+        "**Le piège du recouvrement avec le thème 4.** L'équipe va vouloir traiter l'hébergement, le coût, le modèle, la maintenance. Ce n'est pas son sujet : c'est celui de l'équipe « exploitation durable ». Ici, la question est l'usage et la réponse, pas le socle. À arbitrer dès le début si les deux thèmes tournent en parallèle."
+      ],
+      "invariants": [
+        "Source citée et traçable pour toute réponse",
+        "Modèle de droits explicite, aligné sur la trajectoire de cloisonnement de la DSI",
+        "Aucune donnée de personne accompagnée dans le périmètre",
+        "Distinction entre information RH générale et information RH individuelle",
+        "Usage réel en mobilité, hors du poste de bureau"
+      ],
+      "sources": [
+        "Les verbatims de la fiche de thème sont **entièrement simulés**. Aucun entretien n'a été mené sur ce sujet. Ils sont construits à partir de la liste réelle des 120 questions et des documents internes. Ce statut est écrit dans la fiche servie aux équipes : il ne doit pas disparaître si le support est relu par l'association.",
+        "La liste des 120 questions, elle, est un document réel produit par les directions supports. C'est la source la plus solide du thème : c'est elle qu'il faut mettre entre les mains des équipes.",
+        "Les 315 documents et 418 Mo sont un comptage effectué sur l'export du 2026-08-25. Les zips « Docs SdN » et « Docs SdN (1) » sont identiques, et l'archive swisstransfer ne contient que les neuf autres : ne pas compter trois fois le même fonds.",
+        "Le livret d'accueil et les parcours d'intégration sont annoncés pour 2026 dans le rapport annuel. Vérifier avec l'association s'ils ont avancé depuis, avant de laisser une équipe construire sur un manque qui a peut-être été comblé."
+      ],
+      "restitution": [
+        "Une réponse à une question réelle de la liste, de bout en bout, avec sa source",
+        "Un comportement explicite en cas d'incertitude",
+        "Un modèle de droits, même sommaire, et la façon dont il se raccorde à l'existant",
+        "La prise en compte du professionnel en mobilité",
+        "Une idée de ce qui se passe quand un document est mis à jour"
+      ]
+    }
+  },
+  "apres_problematique": {
+    "enjeux": [
+      "Des droits non exercés faute d'être connus, dans une association qui en fait un principe",
+      "Du temps de professionnels supports consommé en réponses répétitives",
+      "Une intégration qui repose sur la disponibilité d'un collègue plutôt que sur un dispositif",
+      "Une connaissance concentrée sur quelques anciens, dans un secteur où le turnover augmente",
+      "Des documents obsolètes qui continuent de circuler en copies locales"
+    ],
+    "question_de_lassociation": "Comment un professionnel de La Sauvegarde du Nord, où qu'il soit et quelle que soit son ancienneté, obtient-il une réponse fiable à une question ordinaire, sans déranger personne et sans voir ce qu'il n'a pas à voir ?"
+  },
+  "livrables": [
+    {
+      "type": null,
+      "titre": "Prise de connaissance — La Sauvegarde du Nord",
+      "contenu": "**La Sauvegarde du Nord** (Association loi 1901, indépendante et laïque · social et médico-social, 1 791 professionnels · 177 bénévoles · 140 services, Nord et Pas-de-Calais · siège à Lambersart, depuis )\n\nL'association intervient auprès de personnes en situation de vulnérabilité économique, sociale ou de santé. Historiquement centrée sur l'enfance et l'adolescence, elle s'adresse aujourd'hui aussi aux adultes. Son activité est répartie en cinq pôles.\n\n**Mission.** Développer l'activité mariage de la cliente, et comprendre pourquoi tant de demandes sont refusées avant de proposer une solution.\n\n**Le cadre, en quelques faits**\n- **Les gens à servir.** 1 791 professionnels, 177 bénévoles, 23 volontaires en service civique, des stagiaires. 140 services. 54 % des effectifs sont en intervention sociale, donc rarement devant un ordinateur.\n- **Le flux d'arrivants est permanent.** 175 embauches en CDI sur la seule année 2025, auxquelles s'ajoutent les CDD, les contrats en alternance et 8 % de contrats d'insertion. Le secteur est en tension de recrutement et l'association s'est engagée dans un dispositif de fidélisation des contrats courts, via une coopérative d'intérim. Trois journées d'accueil ont été organisées en 2025, réunissant un peu plus de 100 salariés. Le livret d'accueil et les parcours d'intégration différenciés sont annoncés pour 2026 : ils n'existent pas encore.\n- **Le fonds documentaire.** Huit bibliothèques distinctes sur l'intranet : documents institutionnels, ressources humaines, informatique, RSE, mécénat, communication, véhicules et bâtiments, médiathèque. L'export transmis pèse 4 Go. Une fois les images et les vidéos mises de côté, **il reste 315 documents porteurs de texte, soit 418 Mo**. Les 3,5 Go restants sont des médias, dont 2,5 Go pour quatorze vidéos d'interviews de professionnels.\n- **Les questions réellement posées.** Environ 120, réparties en sept domaines : ressources humaines, formation, temps de travail et absences, dialogue social, informatique, RSE, mécénat, communication. Deux blocs se détachent :\n- * **Octime**, le logiciel de gestion des temps dont le déploiement s'est achevé en 2025, concentre à lui seul une quinzaine de questions : comment se connecter, mot de passe oublié, consulter son planning, poser un congé, savoir si la demande est acceptée, lire ses compteurs, que faire en cas d'erreur de compteur. * **La communication** en concentre une vingtaine, presque toutes de très petites demandes : j'ai besoin d'un flyer, d'une affiche, d'une signalétique, je dois floquer un véhicule de service, où est la charte graphique, ai-je le droit d'utiliser Canva, existe-t-il un modèle de présentation.\n- **Une contrainte qui tire dans l'autre sens.** L'orientation annoncée par la direction des systèmes d'information pour 2026 est un cloisonnement **plus strict** des accès au réseau et aux données. Ouvrir l'information et cloisonner les accès sont deux mouvements simultanés, et ils ne vont pas spontanément ensemble.\n- **Tout le monde ne doit pas tout voir.** Les grilles tarifaires de la complémentaire santé, les documents d'un CSE de pôle, les fiches RH individuelles, les éléments préparatoires d'une négociation : le besoin d'en connaître et le droit d'en connaître ne se recouvrent pas.\n- « Je suis arrivée en février. Au bout de six mois, je découvre encore des choses qui existaient depuis toujours. La prime, le forfait mobilité, la formation que j'aurais pu demander en janvier. Personne ne me les a cachées. Elles étaient quelque part. » · Éducatrice spécialisée, sept mois d'ancienneté\n- « La règle, chez nous, c'est qu'on demande Sandrine. Sandrine est là depuis dix-neuf ans et Sandrine sait. Le jour où Sandrine part à la retraite, je ne sais pas ce qu'on fait. » · Chef de service, plateforme d'Avesnes-Maubeuge\n- « Je passe mes journées à répondre trois fois par semaine aux mêmes quatre questions. Les congés, l'arrêt maladie, la mutuelle, Octime. Je ne me plains pas : si les gens m'appellent, c'est qu'ils ne trouvent pas. Mais ce n'est pas ça, mon métier. » · Assistante ressources humaines de proximité\n- « J'ai mon dossier à moi sur mon bureau. Une quinzaine de PDF que j'ai téléchargés au fil des années parce que je n'avais pas envie de les rechercher. Je sais très bien que trois d'entre eux ne sont plus à jour. Je ne sais pas lesquels. » · Chef de service\n- « Je travaille de nuit. Quand j'ai une question, le siège est fermé. Quand le siège est ouvert, je dors. » · Surveillant de nuit, maison d'enfants\n- « On me demande un flyer pour une porte ouverte dans douze jours. On me demande la charte graphique. On me demande si le logo peut être mis en blanc. Sur une semaine, j'ai une quinzaine de demandes de ce calibre, et à côté j'ai le rapport annuel à sortir. » · Chargée de communication\n- « Le problème n'est pas qu'il n'y a rien sur l'intranet. C'est qu'il y a tout. Je cherche la procédure en cas d'accident avec mon véhicule personnel, je tombe sur quatre documents qui parlent de véhicules et je ne sais pas lequel s'applique à moi. » · Éducateur spécialisé\n- « On a une bénévole formidable qui accompagne une dame en apprentissage du français depuis deux ans. Elle n'a pas d'adresse mail de l'association. Tout ce qu'elle sait, elle le sait parce que quelqu'un le lui a dit. » · Chef de service, dispositif d'inclusion\n- « Octime, c'est très bien. Mais depuis qu'on l'a déployé, on a créé un métier : celui qui explique Octime. » · Directrice de plateforme\n- « Je ne veux pas d'un système où n'importe qui tape le nom d'un collègue et récupère sa situation. On parle de gens, y compris de nos propres salariés. L'ouverture, oui, mais pas à n'importe quel prix. L'accès doit reposer sur des mécanismes d'habilitation, de contrôle des droits, de traçabilité et de respect du principe du moindre privilège. » · Responsable des systèmes d'information\n- « Franchement ? Quand je ne trouve pas, je ne cherche pas longtemps. J'ai une famille à voir à quatorze heures. » · Travailleuse sociale, milieu ouvert\n\n**Organisation et outils.** L'association intervient auprès de personnes en situation de vulnérabilité économique, sociale ou de santé. Historiquement centrée sur l'enfance et l'adolescence, elle s'adresse aujourd'hui aussi aux adultes. Son activité est répartie en cinq pôles.\n\n**Protection de l'Enfance.** Tous les enfants ont droit à protection et assistance ainsi qu'à un environnement favorable pour pouvoir jouer pleinement leur rôle dans la société, conformément à la Convention internationale des droits de l'enfant. C'est au nom de ces droits que le pôle Protection de l'Enfance intervient dans l'éducation d'enfants en situation de vulnérabilité pour leur permettre de grandir dans la responsabilité et la liberté. Notre accompagnement repose sur : l'appui à la parentalité, l'accueil et l'hébergement, les dispositifs de soutien. Les dispositifs : maison d'enfants, médiation familiale, mineurs non accompagnés, AEMO (accompagnement des familles dans le cadre de mesures éducatives ou judiciaires), centre des apprentissages, enquêtes sociales, réparation pénale, éviction des auteurs de violences conjugales.\n\n**Inclusion Sociale.** Notre société crée des phénomènes d'inégalités et d'exclusion sociale qui doivent être combattus. Au nom des droits fondamentaux et des valeurs républicaines, le pôle Inclusion Sociale agit auprès des personnes précarisées pour qu'elles améliorent leurs conditions de vie, retrouvent leur capacité à faire des choix et exercent pleinement leur place dans la société. Notre accompagnement : appui social, hébergement d'urgence et accès à l'emploi. Les dispositifs : chantiers d'insertion, centres d'hébergement, maraudes, maisons de relais, accompagnement Tsiganes et voyageurs.\n\n**Addictologie.** Si l'addiction représente un problème à la fois individuel et collectif avec des conséquences sanitaires et sociales parfois graves, le pôle Addictologie ne réduit pas les personnes à leurs pratiques addictives. Il offre et promeut un large spectre d'accompagnements pour répondre à la diversité des situations, en refusant les approches strictement répressives. L'accompagnement repose sur : accueil, hébergement, accompagnement social. Les dispositifs : CAARUD, CSAPA, communauté thérapeutique, RDR à distance, centre de méthadone.\n\n**Handicap.** Le pôle Handicap favorise l'inclusion des enfants et adolescent·e·s en situation de handicap pour leur permettre, autant qu'il leur est possible, de vivre et de grandir comme n'importe quel·le autre enfant. Il contribue à la lutte contre les discriminations à leur égard, notamment en matière de scolarisation et de vie sociale. Les dispositifs : uniquement des DITEP.\n\n**Santé.** La santé des enfants et des jeunes est un investissement pour l'avenir. Le pôle Santé accompagne le développement de l'enfant, du bébé jusqu'au jeune adulte, pour prévenir les difficultés de santé, sociales ou éducatives. Il offre un accompagnement en soins, en prévention ou en éducation et promotion de la santé pour répondre à la diversité des situations. L'accompagnement repose sur : petite enfance/enfance, adolescence, prévention. **Assemblée générale**, puis **Conseil d'administration** de 17 administrateurs bénévoles issus de la société civile, présidé par **François Leurs** Cinq **conseils d'orientation stratégique**, un par pôle, chacun présidé par un vice-président délégué **Direction générale** : Frédéric Rouvière (directeur général), Fabienne Lemaire (directrice générale adjointe)",
+      "note_pour_la_suite": "Le PM a pris connaissance du dossier client. Point de départ de la phase Sense : cadrer l'angle de discovery avec l'UX Researcher.",
+      "le": "2026-09-24T12:41:36.023585Z"
+    },
+    {
+      "type": "problem_statement",
+      "titre": "La problématique",
+      "contenu": "# Problématique\n\n## Énoncé\nLes nouveaux professionnels de la Sauvegarde du Nord, faute de parcours d'accueil structuré, découvrent trop tard les droits, procédures et ressources auxquels ils auraient pu accéder dès leur arrivée. Cette absence leur fait perdre des mois d'avantages concrets, et surcharge les fonctions supports qui compensent en répondant aux mêmes questions de façon répétitive.\n\n## Les quatre critères\n- **Qui subit** : les nouveaux professionnels (salariés CDI, CDD, alternants, contrats d'insertion) dans leurs premières semaines, et les assistantes RH de proximité qui absorbent le flux de questions en parallèle\n- **À quel moment** : dès l'arrivée dans l'association et durant les premiers mois, avant que les informations clés aient été trouvées par eux-mêmes ou transmises par un collègue\n- **Ce que ça coûte** : des droits et avantages auxquels on n'accède pas à temps (prime, forfait mobilité, formation), du temps perdu pour les supports qui répondent trois fois par semaine aux mêmes questions, et une dépendance aux personnes-ressources informelles dont le départ fragilise l'organisation\n- **Sans solution** : l'énoncé décrit un manque et ses conséquences, sans mentionner de dispositif, d'outil ni d'approche pour y répondre\n\n## D'où elle vient\n- **Thomas** a pointé l'absence de présentation aux nouveaux arrivants et la concentration des connaissances sur une seule personne-ressource informelle\n- **Héloïse** a relevé l'absence de conduite du changement et de parcours différencié selon le poste\n- **Louis** a mis en avant le problème d'accessibilité de l'information selon le profil\n- Le dossier fournit deux verbatims directs : l'éducatrice spécialisée de sept mois (\"au bout de six mois, je découvre encore des choses qui existaient depuis toujours. La prime, le forfait mobilité, la formation que j'aurais pu demander en janvier\") et l'assistante RH (\"je passe mes journées à répondre trois fois par semaine aux mêmes quatre questions\")\n- Le dossier signale 175 embauches en CDI sur la seule année 2025, plus les CDD, alternants et contrats d'insertion : le flux d'arrivants est permanent et le livret d'accueil annoncé pour 2026 n'existe pas encore\n\n## Ce que le vote a écarté\n- **L'accès non gouverné selon le profil** (droits différenciés, cloisonnement, habilitations) : 0 voix\n- **L'intranet illisible ou trop dense** (trop de documents, pas de référencement par poste) : 0 voix\n- **L'absence d'interlocuteur ou d'agent disponible hors heures de bureau** : 1 voix\n- La problématique retenue a recueilli 4 voix sur 5, sans vote serré ni arbitrage du Master\n\n## Ce qu'on ne sait pas encore\n- À quel moment précis dans les premières semaines le problème est-il le plus aigu : le jour J, la première semaine, le premier mois ?\n- Existe-t-il déjà un parcours d'accueil dans certains services ou pôles, et si oui, qu'est-ce qui le rend efficace là où il fonctionne ?\n- Quelle est la part des bénévoles et des stagiaires dans ce problème : ont-ils accès aux mêmes ressources que les salariés ?\n- Le futur livret d'accueil prévu pour 2026 couvre-t-il les mêmes besoins, et qui en est responsable ?\n- Combien de temps par semaine les assistantes RH de proximité consacrent-elles réellement à ces questions répétitives ?",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T13:31:05.740859Z"
+    },
+    {
+      "type": "interview_guide",
+      "titre": "Guide d'entretien",
+      "contenu": "# Guide d'entretien\n\n## Ce qu'on cherche à comprendre\n\nLes nouveaux professionnels de la Sauvegarde du Nord découvrent trop tard les droits, procédures et ressources auxquels ils auraient pu accéder dès leur arrivée. On cherche à comprendre ce qui se passe concrètement dans les premières semaines, à quel moment le manque se fait sentir, et ce que ça coûte réellement aux personnes concernées et aux fonctions supports qui compensent.\n\n## Ce qu'on ne sait pas encore\n\n- À quel moment précis dans les premières semaines le problème est le plus aigu : le jour J, la première semaine, le premier mois ?\n- Existe-t-il déjà un parcours d'accueil dans certains services ou pôles, et si oui, qu'est-ce qui le rend efficace là où il fonctionne ?\n- Quelle est la part des bénévoles et des stagiaires dans ce problème : ont-ils accès aux mêmes ressources que les salariés ?\n- Le livret d'accueil prévu pour 2026 couvre-t-il les mêmes besoins, et qui en est responsable ?\n- Combien de temps par semaine les fonctions supports consacrent-elles réellement à ces questions répétitives ?\n\n## Méthode\n\nEntretien avec le responsable de l'association, créneau court. Questions ouvertes et factuelles sur le passé récent : on demande ce qui s'est passé, jamais ce qu'il en pense dans l'absolu. On écoute sans proposer de piste, on note les mots exacts qu'il utilise.\n\n## Trame\n\n### 1. Quand un nouveau professionnel arrive, que se passe-t-il concrètement le premier jour et la première semaine : qu'est-ce qu'il reçoit, et qu'est-ce qu'il cherche par lui-même ?\n\n> _Réponse :_\n\n### 2. Racontez-moi la dernière fois que vous avez vu quelqu'un découvrir trop tard une information importante : qu'est-ce qui s'est passé ?\n\n> _Réponse :_\n\n### 3. Pour les professionnels qui travaillent de nuit ou le week-end, comment font-ils quand ils ont une question urgente et que le siège est fermé ?\n\n> _Réponse :_\n\n### 4. Quand il y a plusieurs documents sur le même sujet sur l'intranet, comment sait-on lequel est le bon, et qui le met à jour ?\n\n> _Réponse :_\n\n### 5. Combien de temps par semaine estimez-vous que les fonctions supports passent à répondre à des questions que les gens pourraient trouver seuls ?\n\n> _Réponse :_\n\n### 6. Qu'est-ce qui fait qu'un professionnel renonce à chercher l'information et fait autrement ?\n\n> _Réponse :_\n\n### 7. Le livret d'accueil et les parcours d'intégration annoncés pour 2026 : où en est-on, et qui en est responsable ?\n\n> _Réponse :_\n\n## Question de falsification\n\n### 8. Y a-t-il des services ou des pôles où l'intégration des nouveaux professionnels fonctionne bien : qu'est-ce qui est différent là-bas ?\n\n*Si le responsable cite des endroits où ça marche, ça remet en cause l'idée que le problème est structurel à toute l'association : le vrai problème serait alors de comprendre pourquoi certains pôles s'en sortent et pas d'autres.*\n\n> _Réponse :_",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T13:31:51.114452Z"
+    },
+    {
+      "type": "backlog",
+      "titre": "Le backlog",
+      "contenu": "# Backlog\n\n## EPIC-1\n- **nom** : Parcours d'onboarding personnalisé du nouveau professionnel\n- **acteur** : Le nouveau professionnel de la Sauvegarde du Nord (salarié CDI, CDD, alternant, contrat d'insertion)\n- **épisode** : Les premières semaines dans l'association, avant que les informations clés aient été trouvées seules ou transmises par un collègue\n\n### P1-1\n- **acteur** : Le nouveau professionnel\n- **moment** : Dès sa prise de poste\n- **capacité** : Suivre un parcours d'onboarding personnalisé selon son métier et ses accès\n- **gain** : Savoir quoi apprendre et dans quel ordre, sans dépendre du hasard des collègues disponibles\n- **réussite** : À la fin de sa première semaine, il peut nommer les trois ressources clés de son poste sans avoir eu à appeler le siège\n- **ancrage** : « parcours d'onboarding personnalisé pour chaque collaborateur en fonction des données de sa fiche » (Louis) / « en fonction du métier une base de données socle commun+expertise mise à disposition » (Thomas) / « déterminer les accès et documents nécessaires à son parcours d'onboarding » (Héloïse)\n- **rang** : 1\n\n### P1-2\n- **acteur** : Le nouveau professionnel\n- **moment** : Le jour de son arrivée dans son service\n- **capacité** : Identifier une personne référente qui suit ses premiers pas\n- **gain** : Savoir à qui s'adresser quand il bloque, sans chercher seul\n- **réussite** : Le jour J, il connaît le nom et le rôle de sa personne référente, et sait comment la joindre\n- **ancrage** : « Définir une personne référente qui va suivre les premiers pas du nouvel arrivant » (Héloïse)\n- **rang** : 2\n\n### P1-3\n- **acteur** : Le nouveau professionnel\n- **moment** : Dès son arrivée\n- **capacité** : Recevoir un kit de documents ciblés sur son profil\n- **gain** : Accéder immédiatement aux informations qui le concernent sans avoir à fouiller l'intranet\n- **réussite** : Le jour J, il a reçu son kit et peut citer au moins une information qu'il n'aurait pas trouvée seul dans la semaine\n- **ancrage** : « Construire un kit pour les nouveaux arrivants » (Axelle) / « kit de documentation lié à son profil et ses besoins » (Louis) / « base de données socle commun+expertise mise à disposition » (Thomas)\n- **rang** : 3\n\n## La chaîne\nLes trois stories portent le même acteur sur le même épisode : le nouveau professionnel dans ses premières semaines. L'ordre du vote (parcours, référent, kit) diffère légèrement de l'ordre de l'activité (référent dès le jour J, kit dès le jour J, parcours qui s'étale sur la semaine) ; le Master a arbitré cet ordre à voix haute après l'égalité à 4 voix chacun, et le backlog le respecte tel quel.\n\n## Le parking\n- « un chat permettant de poser des questions en direct et d'avoir une réponse fiable » (Axelle) : écartée par le vote, 0 voix sur 12\n- « Créer des fiches utilisateurs pour que l'intranet propose les bonnes solutions / informations au type de profil » (Axelle) : écartée par le vote, 0 voix sur 12\n- « des communications récurrentes qui permettent de s'assurer que le nouvel arrivant a bien complété les étapes définies » (Héloïse) : écartée par le vote, 0 voix sur 12\n- « Définir une équipe support responsable de ce contenu sur l'intranet » (Héloïse) : écartée par le vote, 0 voix sur 12\n- « une présentation de l'intranet en amont de la réunion mi-année » (Thomas) : écartée par le vote, 0 voix sur 12",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T13:51:02.735266Z"
+    },
+    {
+      "type": "screens_html",
+      "titre": "Prototype cliquable · version 1 sur 7 (remplacée)",
+      "contenu": "[Prototype cliquable](https://pmlab-solidaire.exalt-lab.com/be/media/mvps/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/d514012c7335/index.html)\n\n3 écran(s).\n\n- `screen-1` → P1-1 · Mon parcours d'onboarding\n- `screen-2` → P1-2 · Ma personne référente\n- `screen-3` → P1-3 · Mon kit de documents\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:04:34.159621Z"
+    },
+    {
+      "type": "mockup_image",
+      "titre": "Maquette du croquis",
+      "contenu": "![Maquette du croquis](https://pmlab-solidaire.exalt-lab.com/be/sessions/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/media/mockups/a1e641ddec15.png)\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:05:27.869132Z"
+    },
+    {
+      "type": "screens_html",
+      "titre": "Prototype cliquable · version 2 sur 7 (remplacée)",
+      "contenu": "[Prototype cliquable](https://pmlab-solidaire.exalt-lab.com/be/media/mvps/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/ff4d9c37b580/index.html)\n\n3 écran(s).\n\n- `screen-1` → P1-1 · Mon parcours d'onboarding\n- `screen-2` → P1-2 · Mon référent\n- `screen-3` → P1-3 · Mon kit de documents\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:10:50.594437Z"
+    },
+    {
+      "type": "screens_html",
+      "titre": "Prototype cliquable · version 3 sur 7 (remplacée)",
+      "contenu": "[Prototype cliquable](https://pmlab-solidaire.exalt-lab.com/be/media/mvps/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/798ecfe0f647/index.html)\n\n3 écran(s).\n\n- `screen-1` → P1-1 · Mon parcours\n- `screen-2` → P1-2 · Mon référent\n- `screen-3` → P1-3 · Mon kit\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:12:34.148880Z"
+    },
+    {
+      "type": "screens_html",
+      "titre": "Prototype cliquable · version 4 sur 7 (remplacée)",
+      "contenu": "[Prototype cliquable](https://pmlab-solidaire.exalt-lab.com/be/media/mvps/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/f99d0fc61d34/index.html)\n\n3 écran(s).\n\n- `screen-1` → P1-1 · Mon parcours d'onboarding\n- `screen-2` → P1-2 · Mon référent\n- `screen-3` → P1-3 · Mon kit de documents\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:13:38.419463Z"
+    },
+    {
+      "type": "mockup_image",
+      "titre": "Maquette du croquis",
+      "contenu": "![Maquette du croquis](https://pmlab-solidaire.exalt-lab.com/be/sessions/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/media/mockups/45ba0bee0af1.png)\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:21:00.030864Z"
+    },
+    {
+      "type": "screens_html",
+      "titre": "Schéma · version 5 sur 7 (remplacée)",
+      "contenu": "[Schéma](https://pmlab-solidaire.exalt-lab.com/be/media/mvps/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/5a10f88939d4/index.html)\n\n1 écran(s).\n\n- `screen-1` → non rattaché · Schéma parcours onboarding\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:23:11.107464Z"
+    },
+    {
+      "type": "screens_html",
+      "titre": "Prototype cliquable · version 6 sur 7 (remplacée)",
+      "contenu": "[Prototype cliquable](https://pmlab-solidaire.exalt-lab.com/be/media/mvps/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/7ba8122f91a3/index.html)\n\n3 écran(s).\n\n- `screen-1` → P1-1 · Mon parcours d'onboarding\n- `screen-2` → P1-2 · Ma personne référente\n- `screen-3` → P1-3 · Mon kit de documents\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:23:43.501357Z"
+    },
+    {
+      "type": "screens_html",
+      "titre": "Prototype cliquable · version 7 sur 7 (la plus récente)",
+      "contenu": "[Prototype cliquable](https://pmlab-solidaire.exalt-lab.com/be/media/mvps/2aa8876e-837a-4249-8f60-4be6b4bdbe6c/78419a68e422/index.html)\n\n3 écran(s).\n\n- `screen-1` → P1-1 · Mon parcours d'onboarding\n- `screen-2` → P1-2 · Ma personne référente\n- `screen-3` → P1-3 · Mon kit de documents\n\nPièce d'origine : `450775dc-22ac-4a0a-a76b-da33b875aa68`",
+      "note_pour_la_suite": null,
+      "le": "2026-09-24T14:27:37.338682Z"
+    }
+  ],
+  "arbitrages": [
+    {
+      "question": "Problématique ?",
+      "type": "vote",
+      "options": [
+        "Pas d'onboardig",
+        "Intranet obsolète ou trop complexe d'uitlisaton",
+        "Pas de suppot humain (référent) ou agent - y compris hors bureau"
+      ],
+      "resultat": {
+        "total": 5,
+        "counts": [
+          4,
+          0,
+          1
+        ],
+        "details": [
+          {
+            "name": "Thomas",
+            "text": null,
+            "option": 0,
+            "weights": null,
+            "participant_id": "973ea705-5efc-45ab-a9cd-ebb74d304413"
+          },
+          {
+            "name": "Héloïse",
+            "text": null,
+            "option": 0,
+            "weights": null,
+            "participant_id": "5748763a-4c17-4ca8-881c-a097ce056966"
+          },
+          {
+            "name": "Axelle",
+            "text": null,
+            "option": 0,
+            "weights": null,
+            "participant_id": "cabbc2b9-a4f7-4415-8c01-e89d7f761c84"
+          },
+          {
+            "name": "Arnaud",
+            "text": null,
+            "option": 2,
+            "weights": null,
+            "participant_id": "dedd24a2-36d3-450a-a2c4-535cf49509c5"
+          },
+          {
+            "name": "Louis",
+            "text": null,
+            "option": 0,
+            "weights": null,
+            "participant_id": "b4135fe9-4ab5-4026-8c53-2c1b44089091"
+          }
+        ]
+      }
+    },
+    {
+      "question": "Quelles idées méritent d'être dans le top 3 ? Tu as 3 voix, cumulables.",
+      "type": "weighted",
+      "options": [
+        "Nouveau professionnel : recevoir un kit de documents ciblés sur son profil dès l'arrivée",
+        "Nouveau professionnel : avoir un parcours d'onboarding personnalisé selon son métier et ses accès",
+        "Nouveau professionnel : avoir une personne référente qui suit ses premiers pas",
+        "Professionnel : poser une question et obtenir une réponse fiable sans appeler le siège",
+        "Professionnel : que l'intranet lui propose les bons documents selon son profil, sans chercher",
+        "Nouveau professionnel : recevoir des relances régulières pour compléter les étapes clés de son intégration",
+        "Équipe support : disposer d'une responsabilité claire sur la mise à jour du contenu intranet",
+        "Nouveau professionnel : avoir une présentation de l'intranet dans les premiers jours, avant la réunion de mi-année"
+      ],
+      "resultat": {
+        "total": 12,
+        "counts": [
+          4,
+          4,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "voters": [
+          4,
+          4,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "details": [
+          {
+            "name": "Axelle",
+            "text": null,
+            "option": null,
+            "weights": {
+              "0": 1,
+              "1": 1,
+              "2": 1
+            },
+            "participant_id": "cabbc2b9-a4f7-4415-8c01-e89d7f761c84"
+          },
+          {
+            "name": "Louis",
+            "text": null,
+            "option": null,
+            "weights": {
+              "0": 1,
+              "1": 1,
+              "2": 1
+            },
+            "participant_id": "b4135fe9-4ab5-4026-8c53-2c1b44089091"
+          },
+          {
+            "name": "Thomas",
+            "text": null,
+            "option": null,
+            "weights": {
+              "0": 1,
+              "1": 1,
+              "2": 1
+            },
+            "participant_id": "973ea705-5efc-45ab-a9cd-ebb74d304413"
+          },
+          {
+            "name": "Héloïse",
+            "text": null,
+            "option": null,
+            "weights": {
+              "0": 1,
+              "1": 1,
+              "2": 1
+            },
+            "participant_id": "5748763a-4c17-4ca8-881c-a097ce056966"
+          }
+        ],
+        "votes_per_person": 3
+      }
+    }
+  ],
+  "salves": [
+    {
+      "question": "On vient de lire le dossier de l'association. À cette étape, on vous demande deux choses. 1. Quelle est, selon vous, la problématique la plus importante à résoudre ? Décrivez-la avec vos mots : qui la vit, et dans quelles situations. On ne cherche pas encore de solution, seulement à bien nommer le problème. 2. Avez-vous des questions à poser à l'association pour mieux comprendre cette problématique ? Répondez aux deux dans le même message.",
+      "reponses": [
+        {
+          "qui": "Arnaud",
+          "role": "Autre",
+          "reponse": {
+            "text": "Création d’une base documentaire gérée par un agent avec \n- Arborescence au niveau association au global / par pôle / par type de poste\n- identification des utilisateurs pour droits d’accès à la donnée \n- création d’un chatbot permettant de faire des appels à la base documentaire"
+          }
+        },
+        {
+          "qui": "Louis",
+          "role": "PO",
+          "reponse": {
+            "text": "La problématique selon moi concerne principalement la disponibilité et l’accessibilité de l’information selon le profil de chacun. \nUn problème de centralisation des informations sur l’intranet ainsi qu’un problème d’authentification et de gouvernance pour accéder aux informations pertinentes selon le profil de chacun."
+          }
+        },
+        {
+          "qui": "Héloïse",
+          "role": "PM",
+          "reponse": {
+            "text": "Problème d’organisation de données et d’accessibilité pour toutes les fonctions support et métiers. Les problèmes principaux retenus sont pour tous les utilisateurs : accessibilité de la plateforme (pas de H24), référencement de la documentation en fonction du poste inexistant, pas de conduite du changement/ formation du fonctionnement de la base documentaire pour les bénévoles, besoin d’une experience fluide et catégorisée « fourre-tout » actuellement"
+          }
+        },
+        {
+          "qui": "Thomas",
+          "role": "PM",
+          "reponse": {
+            "text": "Il n’y a pas de présentation aux nouveaux arrivants avec une mise à disposition des infos administratives. \n\nLes connaissances ne sont pas centralisés (une personne « bible »)"
+          }
+        },
+        {
+          "qui": "Axelle",
+          "role": "Autre",
+          "reponse": {
+            "text": "Comment rendre accessible l'information de façon claire, sécurisée et en respectant les normes et les besoins de l'association ? Les personnes de l'association doivent pouvoir trouver la documentation, sous le bon format (réponse, retour aux documents...) en trouvant la source (juridique...) quels sont leurs besoins en terme de livrables ? Qui a accès à quoi ?"
+          }
+        }
+      ]
+    },
+    {
+      "question": "Balancez toutes vos idées. Je préfère les besoins aux solutions à ce stade, mais dites-moi tout ce qui vous passe par la tête, je trierai.",
+      "reponses": [
+        {
+          "qui": "Thomas",
+          "role": "PM",
+          "reponse": {
+            "text": "Mettre à disposition une période d onboarding, dans laquelle en fonction du métier une base de données socle commun+expertise sera mise à disposition. Suite à cela dans la première semaine une présentation de l intranet sera présente en amont de la réunion mi année."
+          }
+        },
+        {
+          "qui": "Axelle",
+          "role": "Autre",
+          "reponse": {
+            "text": "Construire un kit pour les nouveaux arrivants, avec une mise en avant de l'intranet et optimiser l'intranet avec un chat permettant de poser des Questions en direct et d'avoir une réponse fiable. Créer des fiches utilisateurs pour que l'intranet propose les bonnes solutions / informations au type de profil"
+          }
+        },
+        {
+          "qui": "Héloïse",
+          "role": "PM",
+          "reponse": {
+            "text": "Construire une fiche utilisateur avec la fonction de la personne afin de déterminer les acces et documents nécessaires à son parcours d’onbiarding. \nDéfinir une personne referente qui va suivre les premiers pas du nouveau arrivant \nAvoir des communications récurrentes qui permettent de s’assurer que le nouvel arrivant à bien completé les étapes définies du parcours \nDéfinir une equipe support responsable de ce contenu sur l’intranet"
+          }
+        },
+        {
+          "qui": "Louis",
+          "role": "PO",
+          "reponse": {
+            "text": "Fiche utilisateur personnalisée des l’arrivée d’un nouveau collaborateur pour automatiquement (et grâce aux travaux des autres équipe du use case sur l’accessibilité et la disponibilité des informations) déterminer un parcours d’onboarding personnalisé pour chaque collaborateur en fonction des données de sa fiche. De manière plus générale, il recevra un kit de documentation lié à son profil et ses besoins"
+          }
+        }
+      ]
+    },
+    {
+      "question": "Réfléchissez ensemble à la solution que vous voulez apporter. Décrivez-la en texte depuis vos téléphones. Et surtout, dessinez : une feuille, un crayon, cinq minutes, puis photographiez et envoyez-moi.",
+      "reponses": [
+        {
+          "qui": "Héloïse",
+          "role": "PM",
+          "reponse": {
+            "text": "Image"
+          }
+        }
+      ]
+    }
+  ],
+  "fil": [
+    {
+      "agent": "po",
+      "texte": "[[MANCHE:open:300]]\nBalancez toutes vos idées. Je préfère les besoins aux solutions à ce stade, mais dites-moi tout ce qui vous passe par la tête, je trierai.\n[[/MANCHE]]\n\n[[MASTER]]\nDis-leur à voix haute : \"Écrivez sur vos téléphones, une idée par ligne, sans maximum. Cinq idées, dix idées, quinze, tout est bon. Ne gardez pas votre meilleure pour vous : au test, les gens s'arrêtent à deux idées en croyant qu'on leur demande leur top. Ce n'est pas ça. On veut tout.\" Lance la manche, ouvre cinq minutes, et pendant ce temps tout le monde écrit en silence. Tu reviendras vers moi quand tu auras récupéré les contributions de Thomas, Héloïse et Louis.\n[[/MASTER]]",
+      "le": "2026-09-24T12:30:28.238586Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "[[MANCHE:open:300]]\nOn vient de lire le dossier de l'association. À cette étape, on vous demande deux choses.\n\n**1.** Quelle est, selon vous, la problématique la plus importante à résoudre ? Décrivez-la avec vos mots : qui la vit, et dans quelles situations. On ne cherche pas encore de solution, seulement à bien nommer le problème.\n\n**2.** Avez-vous des questions à poser à l'association pour mieux comprendre cette problématique ?\n\nRépondez aux deux dans le même message.\n[[/MANCHE]]\n\n[[MASTER]]\nCinq minutes d'écriture individuelle, chacun sur son téléphone, sans se consulter. Quand tout le monde a répondu, fais partager à voix haute ce que chacun a écrit, puis ouvre la discussion. Tout le monde parle, même en une phrase. Quand la discussion est finie, tu m'envoies toutes les contributions en un seul message, attribuées (Prénom : ...).\n[[/MASTER]]",
+      "le": "2026-09-24T12:41:24.789171Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "Voici ce que j'entends dans vos cinq contributions. Je lis à voix haute, puis on vote.\n\n---\n\n**Candidate 1 : L'info existe mais personne ne la trouve au bon moment**\nLes professionnels, notamment les nouveaux arrivants et ceux qui travaillent hors des heures du siège, ne trouvent pas l'information dont ils ont besoin quand ils en ont besoin : l'intranet est un fourre-tout, il n'y a pas de parcours selon le profil ou le poste, et le siège est fermé la nuit. Résultat : on appelle Sandrine, on renonce, ou on travaille avec des documents périmés.\nAppuyée par : Thomas, Héloïse, et le verbatim du surveillant de nuit\n\n**Candidate 2 : L'accès à l'information n'est pas gouverné selon le profil**\nLes professionnels n'ont pas accès à l'information qui leur est pertinente, parce qu'il n'existe pas de système de droits d'accès différencié selon le poste, le pôle ou le statut (salarié, bénévole, stagiaire). L'ouverture et le cloisonnement tirent en sens contraires, sans arbitrage clair.\nAppuyée par : Louis, Axelle\n\n---\n\n**Désaccord à nommer.** Arnaud a directement proposé une solution (chatbot, arborescence, agent IA) sans formuler le problème sous-jacent. C'est précieux comme direction d'idée, mais c'est prématuré ici : on ne sait pas encore quel problème on résout. Je garde sa lecture pour la suite.\n\n**Ce que personne n'a nommé**, et que le dossier pointe : les directions supports subissent aussi ce problème, elles absorbent des dizaines de questions répétitives chaque semaine (la RH de proximité, la chargée de com). Le coût n'est pas que du côté de celui qui cherche.\n\n[[MANCHE:vote]]\nQuelle problématique retenons-nous ?\n- L'info existe mais personne ne la trouve au bon moment\n- L'accès n'est pas gouverné selon le profil\n- Les supports absorbent un flux répétitif qui n'est pas leur métier (proposée par l'agent)\n[[/MANCHE]]\n\n---\n\n**Guide d'entretien, brouillon**\n\nVoici les questions issues de vos contributions, dédoublonnées et ordonnées. On ouvre large, on resserre ensuite.\n\n**Le vécu d'abord**\n1. Racontez-moi la dernière fois que vous avez cherché une information et que vous ne l'avez pas trouvée facilement. Qu'avez-vous fait à la place ? *(ouverte, ancrage terrain)*\n2. Quand un nouveau professionnel arrive, que se passe-t-il concrètement le premier jour, la première semaine ? Qu'est-ce qu'il reçoit, qu'est-ce qu'il cherche par lui-même ? *(verbatim de l'éducatrice de 7 mois : \"elles étaient quelque part\")*\n3. Pour les collègues qui travaillent de nuit ou le week-end : comment font-ils quand ils ont une question urgente ?\n\n**Ce qui fait autorité**\n4. Quand il y a plusieurs documents qui parlent du même sujet, comment sait-on lequel est le bon ? Qui le met à jour, et à quelle fréquence ?\n5. Y a-t-il des informations qui ne doivent surtout pas sortir d'un service ? Lesquelles, et pourquoi ?\n\n**Le coût réel**\n6. Combien de temps par semaine estimez-vous passer à répondre à des questions que les gens pourraient trouver seuls ? *(pour les fonctions supports)*\n7. Qu'est-ce qui fait qu'un professionnel renonce à chercher et fait autrement ?\n\n**La question de falsification (obligatoire)**\n8. Y a-t-il des situations où l'information est bien disponible, bien organisée, et où les gens la trouvent sans problème ? Si oui, qu'est-ce qui est différent dans ces cas-là ?\n\n*Cette question est là pour éviter de fixer le mauvais problème : si le responsable cite des cas où ça fonctionne, ça change la formulation de notre problématique.*\n\n**Questions à retravailler**\nAxelle a écrit \"quels sont leurs besoins en termes de livrables ?\" et \"qui a accès à quoi ?\" : ce sont des hypothèses déguisées en questions. Je les reformule : \"Quand un professionnel cherche une info, qu'est-ce qu'il veut en faire concrètement ?\" et \"Comment décidez-vous aujourd'hui qui peut accéder à quoi ?\"\n\n---\n\n[[MASTER]]\nNe lance pas le vote avant la fin de la discussion : le bouton est prêt, il n'est pas pressé. Si la discussion fait bouger une formulation, corrige-la dans le formulaire avant de lancer, sans repasser par moi.\n\nRappelle à la salle : on discute d'abord, on vote à la fin. La question de falsification (n° 8) est là pour protéger la squad contre le verrouillage sur le mauvais problème : si le responsable dit \"en fait ça marche bien dans tel service\", on doit pouvoir l'entendre.\n[[/MASTER]]",
+      "le": "2026-09-24T12:53:14.655912Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "Bonne question. La discussion sert à une seule chose : choisir sur quelle problématique on mise avant d'aller voir le responsable.\n\nConcrètement, trois questions à trancher ensemble :\n\n**Est-ce que les deux candidates parlent du même problème**, ou sont-elles vraiment différentes ? Louis et Axelle disent \"qui a le droit d'accéder à quoi\", Thomas et Héloïse disent \"on ne trouve pas ce qu'on cherche\" : ce n'est pas la même souffrance, ni le même moment.\n\n**La troisième candidate vous parle-t-elle ?** Les fonctions supports, la RH, la chargée de com, qui passent leur temps à répondre aux mêmes questions : est-ce que c'est ça, le problème central, ou c'est une conséquence ?\n\n**Est-ce qu'une formulation vous semble fausse ?** Si quelqu'un dans la salle pense \"non, ce n'est pas ça le vrai problème\", c'est maintenant qu'il le dit, pas après le vote.\n\nDeux minutes de débat, puis on vote.\n\n[[MASTER]]\nSi la salle est silencieuse, pose une question directe : \"Thomas, ta contribution parlait des nouveaux arrivants, Louis parlait de gouvernance des droits. Est-ce que vous pensez que c'est le même problème ?\"\n[[/MASTER]]",
+      "le": "2026-09-24T12:59:01.364374Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "Je dois vous arrêter une seconde : vous êtes en train de sauter à la solution avant d'avoir voté sur le problème, et c'est un risque réel. Si votre solution est bonne mais que vous avez mal nommé le problème, vous ne pourrez pas la défendre à la restitution.\n\nDeux choses à faire dans l'ordre.\n\n**D'abord, votez sur la problématique.** Le vote est prêt, il suffit de le lancer. Vos trois points (onboarding, intranet illisible, pas d'interlocuteur) ressemblent à trois problèmes distincts : le vote va forcer la squad à choisir lequel est le plus important.\n\n**Ensuite, gardez la solution pour l'étape suivante.** Elle ne disparaît pas, elle attend.\n\n[[MASTER]]\nLance le vote qui est déjà prêt, avec les trois candidates. Ne modifie rien : \"pas d'onboarding\" correspond à la candidate 1 (Thomas), \"gouvernance des droits\" à la candidate 2, et les supports saturés à la candidate 3. Si la salle veut ajouter \"pas d'interlocuteur / chatbot\" comme quatrième option, tu peux l'ajouter dans le formulaire avant de lancer.\n[[/MASTER]]",
+      "le": "2026-09-24T13:27:07.530062Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "La squad a tranché : le problème central, c'est l'absence d'onboarding.\n\nAvant de déposer, je vérifie les quatre critères de sortie sur cette formulation, et il manque deux choses.\n\n**Ce qui tient :** il y a un sujet (les nouveaux arrivants) et une absence de solution dans l'énoncé.\n\n**Ce qui manque :**\n- Le moment précis : quand dans les premières semaines le problème se fait sentir ? Le jour J, la première semaine, le premier mois ?\n- Le coût : qu'est-ce que ça fait perdre, concrètement ? Du temps, des droits auxquels on n'accède pas, des erreurs, de la démotivation ?\n\nLe verbatim de l'éducatrice donne la matière : \"au bout de six mois, je découvre encore des choses qui existaient depuis toujours. La prime, le forfait mobilité, la formation que j'aurais pu demander en janvier.\"\n\nJe vous propose cette formulation :\n\n**Les nouveaux professionnels, faute de parcours d'accueil structuré, découvrent trop tard les droits, procédures et ressources auxquels ils auraient pu accéder dès leur arrivée, ce qui leur fait perdre des mois d'avantages et surcharge les fonctions supports qui compensent.**\n\nEst-ce que ça correspond à ce que la salle a voté ? Un mot à changer ?\n\n[[MASTER]]\nUne seule question à poser à la salle : \"le coût qu'on a mis, 'perdre des mois d'avantages et surcharger les supports', c'est bien ce que vous voulez dire ?\" Si oui, je dépose. Si non, dis-moi ce qu'ils corrigent.\n[[/MASTER]]",
+      "le": "2026-09-24T13:29:20.767450Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "[[DEPOT:problem_statement]]\n\n[[MASTER]]\nParfait. Appuie sur \"Ajouter au Référentiel\" en haut de la conversation pour déposer la problématique. Ensuite reviens vers moi, je dépose le guide d'entretien dans la foulée.\n[[/MASTER]]",
+      "le": "2026-09-24T13:30:36.885993Z"
+    },
+    {
+      "agent": "po",
+      "texte": "[[MANCHE:open:300]]\nBalancez toutes vos idées. Je préfère les besoins aux solutions à ce stade, mais dites-moi tout ce qui vous passe par la tête, je trierai.\n[[/MANCHE]]\n\n[[MASTER]]\nDis à la salle : chacun écrit sur son téléphone, une idée par ligne, et il n'y a pas de maximum. Cinq, dix, quinze idées par personne, c'est parfait. Au test, les gens s'arrêtent à deux en croyant qu'on leur demande leur meilleure : dis-le à voix haute. Cinq minutes, puis tu me portes tout.\n[[/MASTER]]",
+      "le": "2026-09-24T13:30:39.465026Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "Voici le guide consolidé, prêt pour l'entretien.\n\n---\n\n**Guide d'entretien · La Sauvegarde du Nord**\n*Problématique retenue : les nouveaux professionnels, faute de parcours d'accueil structuré, découvrent trop tard les droits, procédures et ressources auxquels ils auraient pu accéder dès leur arrivée.*\n\n**Ouvrir large : le vécu**\n1. Quand un nouveau professionnel arrive, que se passe-t-il concrètement le premier jour, la première semaine ? Qu'est-ce qu'il reçoit, qu'est-ce qu'il cherche par lui-même ?\n2. Racontez-moi la dernière fois que vous avez vu quelqu'un découvrir trop tard une information importante. Qu'est-ce qui s'est passé ?\n3. Pour les collègues qui travaillent de nuit ou le week-end : comment font-ils quand ils ont une question urgente et que le siège est fermé ?\n\n**Resserrer : ce qui coûte**\n4. Combien de temps par semaine estimez-vous passer à répondre à des questions que les gens pourraient trouver seuls ?\n5. Qu'est-ce qui fait qu'un professionnel renonce à chercher et fait autrement ?\n\n**Ce qui fait autorité**\n6. Quand il y a plusieurs documents sur le même sujet, comment sait-on lequel est le bon ? Qui le met à jour, et à quelle fréquence ?\n7. Y a-t-il des informations qui ne doivent surtout pas circuler hors d'un service ? Lesquelles, et pourquoi ?\n\n**La question de falsification**\n8. Y a-t-il des services ou des pôles où l'intégration des nouveaux fonctionne bien ? Qu'est-ce qui est différent là-bas ?\n\n*Cette question est là pour éviter de fixer le mauvais problème : si le responsable cite des endroits où ça marche, ça peut changer notre formulation.*\n\n---\n\n[[DEPOT:interview_guide]]\n\n[[MASTER]]\nAppuie sur \"Ajouter au Référentiel\" pour déposer le guide. Une fois fait, reviens vers moi.\n[[/MASTER]]",
+      "le": "2026-09-24T13:31:29.323284Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "[[ETAPE:ideation]]\n\n[[MASTER]]\nDis à la salle : le guide d'entretien est au Référentiel, ils l'ont sur leur téléphone. Ils peuvent aller voir le responsable de l'association pour compléter leur vision de la problématique.\nS'ils veulent me rapporter ses réponses, je les prends volontiers. Mais ce n'est pas obligatoire : rien ne m'attend, on peut avancer sans.\nSi ce qu'ils entendent fait bouger la problématique, dis-le-moi, je la reprends.\nQuand ils sont prêts, tu appuies sur \"Passer à «Les idées et le vote»\", en haut.\n[[/MASTER]]",
+      "le": "2026-09-24T13:32:02.221999Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "[[MANCHE:open:300]]\nRéfléchissez ensemble à la solution que vous voulez apporter. Décrivez-la en texte depuis vos téléphones. Et surtout, dessinez : une feuille, un crayon, cinq minutes, puis photographiez et envoyez-moi.\n[[/MANCHE]]\n\n[[MASTER]]\nCe qui est dessiné n'est pas forcément un écran : un parcours, un enchaînement d'étapes, une arborescence, un tableau, tout se traduit. Dis-le à la salle avant qu'ils dessinent, pas après. Cinq minutes d'écriture et de dessin, puis tu m'envoies les photos et les descriptions.\n[[/MASTER]]",
+      "le": "2026-09-24T13:33:31.349601Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "[[MANCHE:open:300]]\nOn vient de lire le dossier. À cette étape, on vous demande deux choses.\n\n**1.** Quelle est, selon vous, la problématique la plus importante à résoudre ? Décrivez-la avec vos mots : qui la vit, et dans quelles situations. On ne cherche pas encore de solution, seulement à bien nommer le problème.\n\n**2.** Avez-vous des questions à poser à l'association pour mieux comprendre cette problématique ?\n\nRépondez aux deux dans le même message.\n[[/MANCHE]]\n\n[[MASTER]]\nFais partager à voix haute ce que chacun a écrit, puis ouvre la discussion. Tout le monde parle, même en une phrase. Quand tout le monde s'est exprimé, transmets-moi les contributions en un seul message, chacune attribuée sur sa ligne : \"- Prénom (Rôle) : …\". Je prépare la restitution et le vote pendant votre discussion.\n[[/MASTER]]",
+      "le": "2026-09-24T13:33:44.536632Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "Ce que le responsable vient de dire confirme la problématique, et l'affine sur deux points.\n\n**Ce qui confirme.** Pas d'onboarding physique, une journée tous les six mois, un lien intranet envoyé sans suivi : c'est exactement \"faute de parcours d'accueil structuré\". Le coût est réel : mauvaises habitudes, outils délaissés, support débordé quotidiennement.\n\n**Ce qui affine.** Deux choses que le dossier suggérait mais que le responsable vient de confirmer : la nuit, personne ne répond, point final, et le réflexe quand on ne trouve pas c'est d'appeler les RH, qui s'en agacent.\n\n**La question de falsification n'a pas eu de réponse.** On ne sait pas s'il existe des pôles où ça fonctionne mieux. C'est une zone d'ombre qui reste entière.\n\nLa problématique déposée tient. Je n'y vois pas de raison de la modifier : les réponses du responsable vont dans le même sens, sans la contredire.\n\nVous pouvez passer à l'étape suivante quand vous êtes prêts.\n\n[[MASTER]]\nAppuie sur \"Passer à «Les idées et le vote»\" en haut. Ce que le responsable a dit est utile pour les idées : rappelle à la salle que \"personne la nuit\" et \"outils délaissés par lassitude\" sont deux contraintes à garder en tête quand ils vont proposer des solutions.\n[[/MASTER]]",
+      "le": "2026-09-24T13:38:15.808742Z"
+    },
+    {
+      "agent": "ux-research",
+      "texte": "Je ne peux pas le confirmer moi-même : je ne vois pas le Référentiel. Ce que je sais, c'est que j'ai émis les deux marqueurs de dépôt, et que le cockpit m'a confirmé les deux.\n\nCe qui devrait être au Référentiel : la problématique, et le guide d'entretien.\n\nLes réponses du responsable, elles, n'ont pas été déposées : tu peux les ajouter depuis \"Voir la séance\" si tu veux les garder, mais ce n't pas un livrable obligatoire de cette étape.\n\n[[MASTER]]\nSi tu veux vérifier, ouvre \"Voir la séance\" en haut à droite : tu verras ce qui a été déposé. Ensuite appuie sur \"Passer à «Les idées et le vote»\".\n[[/MASTER]]",
+      "le": "2026-09-24T13:39:19.348236Z"
+    },
+    {
+      "agent": "po",
+      "texte": "Voici ce que j'ai rangé par épisode, avec les mots d'origine sous chaque reformulation. Relisez avec la salle avant de lancer le vote.\n\n---\n\nÉPISODE A · Le professionnel arrive dans l'association (jour J et première semaine)\n\n1. Nouveau professionnel : recevoir un kit de documents ciblés sur son profil dès l'arrivée\n   « Construire un kit pour les nouveaux arrivants » (Axelle) / « kit de documentation lié à son profil et ses besoins » (Louis) / « base de données socle commun+expertise mise à disposition » (Thomas)\n\n2. Nouveau professionnel : avoir un parcours d'onboarding personnalisé selon son métier et ses accès\n   « en fonction du métier une base de données socle commun+expertise » (Thomas) / « parcours d'onboarding personnalisé pour chaque collaborateur en fonction des données de sa fiche » (Louis) / « déterminer les accès et documents nécessaires à son parcours d'onboarding » (Héloïse)\n\n3. Nouveau professionnel : avoir une personne référente qui suit ses premiers pas\n   « Définir une personne référente qui va suivre les premiers pas du nouvel arrivant » (Héloïse)\n\n---\n\nÉPISODE B · Le professionnel cherche une information sur l'intranet (semaines suivantes)\n\n4. Professionnel : poser une question et obtenir une réponse fiable sans appeler le siège\n   « un chat permettant de poser des questions en direct et d'avoir une réponse fiable » (Axelle)\n\n5. Professionnel : que l'intranet lui propose les bons documents selon son profil, sans chercher\n   « Créer des fiches utilisateurs pour que l'intranet propose les bonnes solutions / informations au type de profil » (Axelle) / « fiche utilisateur personnalisée dès l'arrivée pour automatiquement déterminer un parcours » (Louis)\n\n---\n\nÉPISODE C · Suivi et maintien dans la durée\n\n6. Nouveau professionnel : recevoir des relances régulières pour compléter les étapes clés de son intégration\n   « des communications récurrentes qui permettent de s'assurer que le nouvel arrivant a bien complété les étapes définies » (Héloïse)\n\n7. Équipe support : disposer d'une responsabilité claire sur la mise à jour du contenu intranet\n   « Définir une équipe support responsable de ce contenu sur l'intranet » (Héloïse)\n\n8. Nouveau professionnel : avoir une présentation de l'intranet dans les premiers jours, avant la réunion de mi-année\n   « une présentation de l'intranet en amont de la réunion mi-année » (Thomas)\n\n---\n\nTrois voix chacun, cumulables, on vote sur la valeur pour l'utilisateur.\n\n[[MANCHE:weighted:180:3]]\nQuelles idées méritent d'être dans le top 3 ? Tu as 3 voix, cumulables.\n- Nouveau professionnel : recevoir un kit de documents ciblés sur son profil dès l'arrivée\n- Nouveau professionnel : avoir un parcours d'onboarding personnalisé selon son métier et ses accès\n- Nouveau professionnel : avoir une personne référente qui suit ses premiers pas\n- Professionnel : poser une question et obtenir une réponse fiable sans appeler le siège\n- Professionnel : que l'intranet lui propose les bons documents selon son profil, sans chercher\n- Nouveau professionnel : recevoir des relances régulières pour compléter les étapes clés de son intégration\n- Équipe support : disposer d'une responsabilité claire sur la mise à jour du contenu intranet\n- Nouveau professionnel : avoir une présentation de l'intranet dans les premiers jours, avant la réunion de mi-année\n[[/MANCHE]]\n\n[[MASTER]]\nDis à la salle : \"Je vous lis les reformulations, dites-moi si j'ai trahi une idée.\" Fais le tour à voix haute. Si quelqu'un conteste une reformulation, reviens vers moi et je la corrige. Pendant ce temps la salle discute. Quand la discussion est finie, tu corriges les options dans le formulaire si besoin, puis tu lances. Les scores s'affichent à la clôture.\n[[/MASTER]]",
+      "le": "2026-09-24T13:43:34.358093Z"
+    },
+    {
+      "agent": "po",
+      "texte": "Trois ex aequo parfaits à 4 voix chacun. Le vote ne tranche pas l'ordre, donc c'est à vous de le faire, à voix haute, en dix secondes par arbitrage.\n\nLa question est simple : dans quel ordre un nouveau professionnel vit-il ces trois moments ?\n\nMon avis sur l'ordre de l'activité, si ça aide : d'abord la personne référente (quelqu'un l'accueille), puis le kit (il reçoit ses documents), puis le parcours personnalisé (il suit ses étapes). Mais c'est vous qui décidez.\n\nMaestro, fais trancher la salle à voix haute : dans quel ordre mettre les trois ?\n\n[[MASTER]]\nPose la question à voix haute : \"Dans quel ordre un nouveau arrivant vit-il ces trois choses : le kit, la personne référente, le parcours personnalisé ?\" Laisse trente secondes de discussion, puis annonce l'ordre retenu et reviens me le donner. C'est toi qui tranches si la salle ne s'accorde pas.\n[[/MASTER]]",
+      "le": "2026-09-24T13:45:58.831685Z"
+    },
+    {
+      "agent": "po",
+      "texte": "Voici le backlog.\n\n---\n\nUne user story, ce n'est pas une fonctionnalité : c'est un besoin raconté du point de vue de la personne qui l'a. Elle tient en une phrase : **Pour [qui], au moment où [quand], [ce dont la personne a besoin], afin de [ce que ça lui apporte]**. Si on n'arrive pas à remplir le \"afin de\", c'est qu'on a écrit une solution, pas un besoin.\n\n---\n\n**Epic : Intégration guidée du nouveau professionnel**\n\n---\n\n**P1 · Story 1**\nPour un nouveau professionnel de la Sauvegarde du Nord, au moment où il prend son poste, il a besoin d'un parcours d'onboarding personnalisé selon son métier et ses accès, afin de savoir quoi apprendre, dans quel ordre, sans dépendre du hasard des collègues disponibles.\n\nCondition de réussite observable : à la fin de sa première semaine, il peut nommer les trois ressources clés de son poste sans avoir eu à appeler le siège.\n\n---\n\n**P1 · Story 2**\nPour un nouveau professionnel, au moment où il arrive dans son service, il a besoin d'une personne référente identifiée qui suit ses premiers pas, afin de savoir à qui s'adresser quand il bloque.\n\nCondition de réussite observable : le jour J, il connaît le nom et le rôle de sa personne référente, et sait comment la joindre.\n\n---\n\n**P1 · Story 3**\nPour un nouveau professionnel, dès son arrivée, il a besoin de recevoir un kit de documents ciblés sur son profil, afin d'accéder immédiatement aux informations qui le concernent sans avoir à fouiller l'intranet.\n\nCondition de réussite observable : le jour J, il a reçu son kit et peut citer au moins une information qu'il n'aurait pas trouvée seul dans la semaine.\n\n---\n\n**Parking (avec scores)**\n- D · Réponse fiable sans appeler le siège · 0 voix\n- E · Intranet personnalisé par profil · 0 voix\n- F · Relances régulières sur les étapes · 0 voix\n- G · Responsabilité claire sur le contenu intranet · 0 voix\n- H · Présentation de l'intranet dans les premiers jours · 0 voix\n\n---\n\nLe nom de l'epic que je propose : **Intégration guidée du nouveau professionnel**. Ça vous va, ou vous corrigez à l'oral ?\n\n[[DEPOT:backlog]]\n\n[[MASTER]]\nLis l'epic et les trois stories à voix haute. Demande si le nom de l'epic convient. Si la salle corrige, reviens me le dire et je redépose. Une fois ratifié, clique sur \"Ajouter au Référentiel\" en haut, puis dis-moi que c'est fait pour qu'on passe à la suite.\n[[/MASTER]]",
+      "le": "2026-09-24T13:46:45.263131Z"
+    },
+    {
+      "agent": "po",
+      "texte": "Les deux noms se tiennent. La différence est légère : \"Intégration guidée\" dit ce que ça apporte à la personne, \"Création d'un parcours d'onboarding\" dit ce qu'on va construire.\n\nMon avis : pour un backlog orienté utilisateur, \"Intégration guidée\" colle mieux aux stories. Mais si la salle préfère \"Parcours d'onboarding\", c'est clair et tout le monde comprend.\n\nLa salle tranche : laquelle des deux ?\n\n[[MASTER]]\nPose la question à voix haute en dix secondes : \"Intégration guidée du nouveau professionnel, ou Parcours d'onboarding du nouveau professionnel ?\" Majorité immédiate, puis reviens me donner le nom retenu pour que je redépose.\n[[/MASTER]]",
+      "le": "2026-09-24T13:49:35.496250Z"
+    },
+    {
+      "agent": "po",
+      "texte": "Parfait. Voici le backlog corrigé.\n\n---\n\n**Epic : Parcours d'onboarding personnalisé du nouveau professionnel**\n\n**P1 · Story 1**\nPour un nouveau professionnel de la Sauvegarde du Nord, au moment où il prend son poste, il a besoin d'un parcours d'onboarding personnalisé selon son métier et ses accès, afin de savoir quoi apprendre, dans quel ordre, sans dépendre du hasard des collègues disponibles.\n\nCondition de réussite observable : à la fin de sa première semaine, il peut nommer les trois ressources clés de son poste sans avoir eu à appeler le siège.\n\n**P1 · Story 2**\nPour un nouveau professionnel, au moment où il arrive dans son service, il a besoin d'une personne référente identifiée qui suit ses premiers pas, afin de savoir à qui s'adresser quand il bloque.\n\nCondition de réussite observable : le jour J, il connaît le nom et le rôle de sa personne référente, et sait comment la joindre.\n\n**P1 · Story 3**\nPour un nouveau professionnel, dès son arrivée, il a besoin de recevoir un kit de documents ciblés sur son profil, afin d'accéder immédiatement aux informations qui le concernent sans avoir à fouiller l'intranet.\n\nCondition de réussite observable : le jour J, il a reçu son kit et peut citer au moins une information qu'il n'aurait pas trouvée seul dans la semaine.\n\n---\n\n[[DEPOT:backlog]]\n\n[[MASTER]]\nClique sur \"Ajouter au Référentiel\" en haut dès que tu es prêt. Reviens me dire que c'est fait, je déclencherai le passage à l'étape suivante.\n[[/MASTER]]",
+      "le": "2026-09-24T13:50:34.010297Z"
+    },
+    {
+      "agent": "po",
+      "texte": "Bon travail. La squad a un backlog solide, ancré dans ce qu'elle a produit, avec trois stories qui se suivent sur le même acteur et le même épisode.\n\n[[ETAPE:conception]]\n\n[[MASTER]]\nDis à la salle : \"On vient de finir le backlog, on attaque la conception.\" Le bouton pour passer à l'étape suivante est en haut de l'écran.\n[[/MASTER]]",
+      "le": "2026-09-24T13:51:08.099461Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Depuis un téléphone, tu appuies sur l'icône trombone ou image dans le chat, et tu sélectionnes ta photo directement. Sur un ordinateur, c'est le même bouton ou un glisser-déposer dans la zone de message.\n\n[[MASTER]]\nSi quelqu'un galère, il peut aussi décrire le dessin en texte : une description se relit comme un croquis, et c'est suffisant pour produire la pièce.\n[[/MASTER]]",
+      "le": "2026-09-24T14:01:47.724040Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Je vois qu'Héloïse a envoyé une image, mais elle n'est pas arrivée jusqu'à moi dans ce message. Peux-tu me la transférer directement ici, dans le fil ?\n\n[[MASTER]]\nDemande à Héloïse de renvoyer la photo via le chat, ou copie-colle l'image dans ta réponse. Dès que je la reçois, je relis la pièce à voix haute avant tout commentaire.\n[[/MASTER]]",
+      "le": "2026-09-24T14:02:53.147198Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "C'est un parcours temporel, pas un écran : une ligne du temps qui court de J-1 jusqu'à +6 mois, avec des étapes jalonnées. Voici ce que je lis, dans l'ordre.\n\n**J-1 / J0** : \"Théo\" (le persona) arrive. Il reçoit un kit : fiche de son métier, documents vitaux, démarches nécessaires, un buddy assigné, et son rattachement hiérarchique casé par RH au recrutement. Une flèche pointe vers \"Rencontre buddy\".\n\n**J+1 à J+10** : Présentation générale, formation des acteurs, puis \"Premiers retours et questions\" au centre du parcours.\n\n**Milieu du parcours** : Notifications du manager sur l'avancée du parcours, notifications aussi sur les séries \"sur l'éveil du parcours de l'association, du calcul du apenmètre\" (ce dernier mot m'est illisible, je le signale).\n\n**+6 mois** : \"Welcome Team\" avec une flèche qui remonte vers le haut, suggérant une boucle ou une validation finale.\n\nEn bas à droite, un titre : **\"La quête de Théo\"**, avec un second mot barré que je ne peux pas lire (gamification ?).\n\nCe que je n'arrive pas à lire : le mot barré à côté de \"gamification\", et le terme \"apenmètre\" ou similaire dans les notifications du milieu. Vous pouvez me confirmer ?\n\n[[MASTER]]\nLis cette relecture à voix haute à la salle. Demande-leur de corriger ce que j'ai mal lu avant qu'on passe aux commentaires. Les deux points flous sont : le mot barré sous \"La quête de Théo\", et le terme dans les notifications du milieu du parcours.\n[[/MASTER]]",
+      "le": "2026-09-24T14:04:24.117363Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Je ne vois toujours pas l'image dans ce message, seulement la mention \"Image\". Pour me la transmettre, colle-la directement dans le champ de texte ici, comme tu collerais n'importe quel fichier dans une conversation.\n\n[[MASTER]]\nSi la photo ne passe pas par le chat, deux alternatives : soit Héloïse décrit son dessin en texte (zones, flèches, ce qui est écrit), soit tu me dictes ce que tu vois sur son écran. Une description de trente secondes suffit pour que je produise la pièce.\n[[/MASTER]]",
+      "le": "2026-09-24T14:04:46.837251Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Merci, j'ai maintenant la photo et la précision sur le texte du milieu. Voici ce que je lis.\n\nC'est un **parcours temporel**, une ligne du temps de J0 à +6 mois, avec un persona nommé Théo.\n\n**J0** : Théo arrive. Un bloc regroupe ce qu'il reçoit : fiche de son métier, documents vitaux, démarches nécessaires, un buddy assigné (avec \"x++\" qui suggère plusieurs possibles), rattachement hiérarchique casé par RH au recrutement. Une flèche pointe vers \"Rencontre buddy\".\n\n**J+1 à J+10** : Présentation générale, puis formation des acteurs. Premiers retours et questions au centre.\n\n**Milieu du parcours** : Deux flux de notifications en parallèle, notifications au manager sur l'évolution et la complétude du parcours, et notifications à Théo sur les étapes à compléter, avec mention \"sur l'éveil du parcours de l'association, du calcul du sapenomètre\" (ce dernier mot reste flou pour moi, confirmez-vous ?).\n\n**+6 mois** : \"Welcome Team\", avec une flèche qui remonte vers le haut de la ligne.\n\n**En bas** : \"La quête de Théo\", et le mot \"gamification\" barré, ce qui suggère que la squad a écarté ce terme.\n\nAvant de commenter, confirmez-moi juste : \"sapenomètre\" ou autre chose ?\n\n[[MASTER]]\nLis à voix haute, demande la confirmation sur ce dernier mot, puis je passe aux commentaires sur les P1.\n[[/MASTER]]",
+      "le": "2026-09-24T14:06:07.755456Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Noté, le buddy est un professionnel avec au moins un an d'ancienneté dans l'association, pas n'importe quel collègue disponible.\n\nEt le terme \"sapenomètre\" ou similaire dans les notifications du milieu, vous confirmez ce mot ou c'est autre chose ?",
+      "le": "2026-09-24T14:07:38.749302Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Parfait, je l'efface de ma lecture.\n\nVoici mes commentaires sur la pièce, contre les trois P1.\n\n**P1-1 (parcours personnalisé selon le métier)** : le parcours de Théo est là, avec les étapes et les notifications. Ce qui manque : on ne voit pas comment le parcours se personnalise selon le poste. Un éducateur spécialisé de nuit et une assistante administrative n'ont pas les mêmes \"étapes à compléter\". La squad a-t-elle tranché sur qui configure ça, et comment ?\n\n**P1-2 (personne référente dès le jour J)** : le buddy est bien positionné dès J0, avec le critère d'un an d'ancienneté. C'est solide. La condition de réussite dit que Théo doit connaître le nom, le rôle et le moyen de joindre son buddy le jour J : la pièce montre l'assignation, mais pas le canal de contact. Un détail à préciser.\n\n**P1-3 (kit de documents ciblés)** : le kit est au départ, avec fiche métier, documents vitaux, démarches. C'est la P1-3 couverte dès J0, bien.\n\nUn point d'ergonomie : les deux flux de notifications (vers le manager, vers Théo) sont bien distincts sur la feuille. Il faudra s'assurer qu'à l'écran, Théo ne voit que ce qui le concerne, pas les alertes de son manager.\n\nJ'ai ce qu'il faut pour produire. Je peux faire un **schéma** propre de ce parcours, ou un **prototype cliquable** des trois écrans. Qu'est-ce qui vous est utile maintenant ?",
+      "le": "2026-09-24T14:08:28.154960Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Noté pour les deux points : c'est RH qui configure le parcours selon le poste, et le buddy est joignable par email dès le jour J.\n\nJ'ai tout ce qu'il me faut. Schéma du parcours ou prototype cliquable des trois écrans, qu'est-ce qui vous est utile pour la restitution ?",
+      "le": "2026-09-24T14:09:58.588610Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "[[MANCHE:open:300]]\nRéfléchissez ensemble à la solution que vous voulez apporter. Décrivez-la en texte depuis vos téléphones. Et surtout, dessinez : une feuille, un crayon, cinq minutes, puis photographiez et envoyez-moi.\n[[/MANCHE]]\n\n[[MASTER]]\nCe qui est dessiné n'est pas forcément un écran : un parcours, un enchaînement d'étapes, une arborescence, un tableau, tout se traduit. Dis-le avant qu'ils dessinent, pas après. Quand tu as la photo et les descriptions, transmets-moi tout en un seul message.\n[[/MASTER]]",
+      "le": "2026-09-24T14:12:29.151415Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Non, la doc n'améliorera pas le prototype : mon rôle ici est de traduire fidèlement ce que vous avez dessiné, pas d'enrichir avec d'autres sources. Un prototype trop abouti supprime le travail des développeurs qui construiront ensuite.\n\nCe que vous voyez sur la feuille, c'est exactement ce qui doit se retrouver dans la pièce, ni plus ni moins.\n\nDonc : schéma du parcours ou prototype cliquable des trois écrans ?\n\n[[MASTER]]\nLa photo est bien arrivée cette fois, elle confirme ma lecture précédente. Rien de nouveau à relever. Attends leur choix avant de lancer la production.\n[[/MASTER]]",
+      "le": "2026-09-24T14:14:28.262532Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Ah, ça, c'est une décision importante : le chatbot était dans le parking du backlog (écarté par le vote à 0 voix sur 12). La squad veut le remettre dans la solution ?\n\nSi oui, je le place dans le prototype, mais le Master doit le confirmer, parce que ça dépasse ce que le vote avait tranché.\n\n[[MASTER]]\nDemande à la salle si c'est un ajout collectif ou une suggestion individuelle. Si c'est collectif et que vous l'assumez, je l'intègre sans problème : un chatbot simple en bas d'écran, avec escalade vers Sophie si la réponse est inconnue. Mais c'est ton arbitrage, pas le mien.\n[[/MASTER]]",
+      "le": "2026-09-24T14:16:51.209863Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Parfait, je le note en marge mais je ne l'intègre pas au prototype : ce n'est pas votre pièce à produire.\n\nDonc : schéma du parcours ou prototype cliquable des trois écrans ?",
+      "le": "2026-09-24T14:17:43.983492Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Noté pour les deux points :\n\n- Un espace réservé pour le chatbot, visible dans le prototype mais non développé.\n- Pas de \"La quête de Théo\" dans les écrans.\n\nSchéma du parcours ou prototype cliquable des trois écrans ?",
+      "le": "2026-09-24T14:19:17.980092Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Simple : je peux produire deux choses différentes.\n\nUn **schéma**, c'est une image propre de votre ligne du temps, de J0 à +6 mois, avec les étapes et les flèches. Utile pour expliquer le parcours à voix haute en restitution.\n\nUn **prototype cliquable**, c'est trois écrans navigables sur téléphone ou ordinateur, un par P1. Utile pour montrer à quoi ressemblerait l'application concrètement.\n\nLes deux sont possibles. Qu'est-ce qui vous sert le mieux pour votre restitution ?",
+      "le": "2026-09-24T14:19:35.888222Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Parfait, prototype cliquable. Lance la production depuis la barre sous la conversation, en choisissant **Prototype**, puis clique sur **Produire le document**.\n\nVoici ce que le prototype contiendra :\n\n- **Écran 1** · Mon parcours d'onboarding : la ligne de temps de J0 à +6 mois, les étapes à compléter, les notifications vers Théo, parcours configuré par RH selon le métier.\n- **Écran 2** · Mon référent : le buddy avec son ancienneté d'un an minimum, son nom, son rôle, et un bouton pour le contacter par email.\n- **Écran 3** · Mon kit de documents : fiche métier, documents vitaux, démarches à faire dès J0.\n- Un espace réservé visible pour le chatbot, sans le développer.\n- Pas de \"La quête de Théo\" nulle part.\n\n[[MASTER]]\nDis-leur que la production prend quelques secondes et que tu leur montres le lien dès qu'il apparaît.\n[[/MASTER]]",
+      "le": "2026-09-24T14:19:57.829387Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Oui, c'est cohérent avec ce que vous avez dessiné : les notifications à Théo étaient déjà sur la feuille. Je l'intègre comme une alerte visible sur l'écran 1, qui s'affiche quand une étape est en retard, avec la couleur Alerte de la charte (`#B4451F`).\n\nTu peux lancer la production maintenant depuis le bouton **Produire le document** dans la barre en dessous.",
+      "le": "2026-09-24T14:21:31.432449Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Oui, c'est bien ça, clique sur **Produire un autre document** et choisis **Prototype**.",
+      "le": "2026-09-24T14:22:25.658824Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Noté. Ce tableau pour le référent devient un quatrième écran, dédié au suivi de l'avancée de Théo, avec indicateurs de progression et alertes sur les modules en retard.\n\nÇa dépasse les trois P1 strictement, mais ça sert directement P1-2 : le buddy a besoin de voir où en est Théo pour jouer son rôle. Je l'intègre comme écran 4.\n\nLance la production depuis la barre en bas, en choisissant **Prototype**.\n\n[[MASTER]]\nLe prototype aura donc 4 écrans : Mon parcours (P1-1), Mon buddy (P1-2), Mon kit (P1-3), et le tableau de bord du référent (extension de P1-2). C'est cohérent avec la pièce et avec ce que la squad a ajouté. Lance \"Produire le document\" puis choisis Prototype.\n[[/MASTER]]",
+      "le": "2026-09-24T14:25:44.374546Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Vous avez terminé l'étape de conception, c'est votre dernière étape du hackathon. Il vous reste à préparer votre restitution devant l'association.\n\nVoici ce que vous avez produit aujourd'hui :\n\n- Une **problématique** centrée sur les nouveaux professionnels et le manque de parcours d'accueil structuré.\n- Un **guide d'entretien** pour aller vérifier ça sur le terrain.\n- Un **backlog** avec trois user stories P1 : le parcours personnalisé, le référent dès le jour J, le kit de documents.\n- Un **prototype cliquable** en trois écrans, avec les alertes de retard et un espace réservé pour le chatbot.\n\nPour la restitution, l'essentiel est de raconter le cheminement : pourquoi cette problématique, ce que vous iriez vérifier auprès de l'association, et ce que le prototype permet concrètement à Théo dès son premier jour.\n\n[[MASTER]]\nC'est toi qui décides si la squad prend encore quelques minutes pour préparer la prise de parole, ou si vous êtes prêts. Je n'ai plus de livrable à produire de mon côté.\n[[/MASTER]]",
+      "le": "2026-09-24T14:30:56.372655Z"
+    },
+    {
+      "agent": "ux-design",
+      "texte": "Parfait, bravo à toute la squad ! Vous repartez avec une pièce complète et cohérente du problème jusqu'au prototype.\n\nBonne restitution !",
+      "le": "2026-09-24T14:31:11.869438Z"
+    }
+  ],
+  "croquis": [
+    {
+      "auteur": "Héloïse",
+      "legende": "",
+      "le": "2026-09-24T14:02:44.908952Z"
+    }
+  ],
+  "documents": [
+    [
+      "questions-agent-interne.docx",
+      "Les questions que l'association veut pouvoir poser à un agent interne"
+    ]
+  ],
+  "ecartes": [],
+  "prototype_joint": "prototype/index.html",
+  "sommaire": [
+    [
+      "PASSATION.md",
+      "tout le dossier, à lire d'abord"
+    ],
+    [
+      "contexte/",
+      "l'association et le thème, tels que la squad les a reçus"
+    ],
+    [
+      "cadrage/",
+      "les livrables : problématique, guide, backlog, prototype"
+    ],
+    [
+      "matiere/",
+      "les votes, les mots de la squad, le fil des agents"
+    ],
+    [
+      "documents-association/",
+      "les pièces fournies par l'association"
+    ],
+    [
+      "croquis/",
+      "les photos du Crazy 4"
+    ],
+    [
+      "prototype/",
+      "le document produit à l'étape 3"
+    ],
+    [
+      "passation.json",
+      "les mêmes données, pour une lecture machine"
+    ]
+  ]
+}

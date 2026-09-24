@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Onboarding · La Sauvegarde du Nord</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --encre: #1B2A3A;
+    --ardoise: #5B6B7B;
+    --papier: #F7F8FA;
+    --appui: #1F6F5C;
+    --alerte: #B4451F;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+    background: #E2E6EA;
+    color: var(--encre);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+  }
+
+  .screen {
+    display: none;
+    width: 100%;
+    max-width: 720px;
+    background: var(--papier);
+    border-radius: 8px;
+    border: 1px solid #D0D6DC;
+    padding: 32px 32px 40px;
+  }
+
+  .screen.active { display: block; }
+
+  /* Nav breadcrumb */
+  .screen-meta {
+    font-size: 13px;
+    color: var(--ardoise);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .screen-meta .tag {
+    background: var(--appui);
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  h1 { font-size: 22px; font-weight: 600; color: var(--encre); margin-bottom: 8px; }
+  h2 { font-size: 17px; font-weight: 600; color: var(--encre); margin-bottom: 16px; }
+  h3 { font-size: 15px; font-weight: 600; color: var(--encre); margin-bottom: 8px; }
+
+  p { color: var(--ardoise); line-height: 1.6; margin-bottom: 16px; }
+
+  .divider { border: none; border-top: 1px solid #D0D6DC; margin: 24px 0; }
+
+  /* Alerte bannière */
+  .alert-banner {
+    background: #FDF1ED;
+    border-left: 4px solid var(--alerte);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+    color: var(--alerte);
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .alert-banner span { font-size: 18px; }
+
+  /* Profil card */
+  .profile-card {
+    background: #fff;
+    border: 1px solid #D0D6DC;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .avatar {
+    width: 48px; height: 48px;
+    background: var(--appui);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-weight: 600; font-size: 18px;
+    flex-shrink: 0;
+  }
+  .profile-info { flex: 1; }
+  .profile-info .name { font-weight: 600; font-size: 16px; color: var(--encre); }
+  .profile-info .role { color: var(--ardoise); font-size: 14px; margin-top: 2px; }
+
+  /* Timeline parcours */
+  .timeline { display: flex; flex-direction: column; gap: 0; margin-bottom: 24px; }
+
+  .timeline-item {
+    display: flex;
+    gap: 16px;
+    position: relative;
+  }
+  .timeline-item:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 40px;
+    width: 2px;
+    bottom: 0;
+    background: #D0D6DC;
+  }
+
+  .timeline-dot {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600; font-size: 13px;
+    border: 2px solid transparent;
+    position: relative;
+    z-index: 1;
+  }
+  .dot-done { background: var(--appui); color: #fff; border-color: var(--appui); }
+  .dot-active { background: #fff; color: var(--appui); border-color: var(--appui); }
+  .dot-late { background: #fff; color: var(--alerte); border-color: var(--alerte); }
+  .dot-todo { background: #fff; color: var(--ardoise); border-color: #D0D6DC; }
+
+  .timeline-content {
+    flex: 1;
+    padding: 8px 0 24px;
+  }
+  .timeline-label {
+    font-weight: 600; font-size: 15px; color: var(--encre);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .timeline-date { font-size: 13px; color: var(--ardoise); margin-top: 2px; }
+  .badge-late {
+    background: #FDF1ED; color: var(--alerte);
+    border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600;
+  }
+  .badge-done {
+    background: #EAF4F1; color: var(--appui);
+    border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600;
+  }
+  .badge-encours {
+    background: #E8F0FE; color: #1a56db;
+    border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600;
+  }
+
+  /* Modules J1 */
+  .modules-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
+  .module-item {
+    background: #fff;
+    border: 1px solid #D0D6DC;
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .module-check {
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px;
+  }
+  .check-done { background: var(--appui); color: #fff; }
+  .check-todo { background: #D0D6DC; color: #fff; }
+  .module-text { flex: 1; font-size: 15px; color: var(--encre); }
+  .module-sub { font-size: 13px; color: var(--ardoise); margin-top: 2px; }
+
+  /* Référent */
+  .referent-card {
+    background: #fff;
+    border: 1px solid #D0D6DC;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  .referent-name { font-weight: 600; font-size: 17px; color: var(--encre); margin-bottom: 4px; }
+  .referent-role { color: var(--ardoise); font-size: 14px; margin-bottom: 12px; }
+  .referent-contact { color: var(--appui); font-size: 15px; font-weight: 600; }
+
+  /* Kit documents */
+  .kit-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
+  .kit-item {
+    background: #fff;
+    border: 1px solid #D0D6DC;
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+  }
+  .kit-icon { font-size: 18px; flex-shrink: 0; }
+  .kit-label { flex: 1; font-size: 15px; color: var(--encre); font-weight: 600; }
+  .kit-sub { font-size: 13px; color: var(--ardoise); font-weight: 400; }
+  .kit-action { font-size: 13px; color: var(--appui); font-weight: 600; }
+
+  /* Tableau référent */
+  .recap-table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+  .recap-table th {
+    background: #EAF4F1; color: var(--appui);
+    font-size: 13px; font-weight: 600;
+    padding: 10px 12px; text-align: left;
+    border-bottom: 2px solid #D0D6DC;
+  }
+  .recap-table td {
+    padding: 10px 12px;
+    font-size: 14px;
+    color: var(--encre);
+    border-bottom: 1px solid #EAECEF;
+    vertical-align: top;
+  }
+  .recap-table tr:last-child td { border-bottom: none; }
+  .recap-table .alerte-row td { background: #FDF1ED; }
+  .progress-bar-wrap {
+    background: #E0E0E0; border-radius: 4px; height: 8px; width: 100%; min-width: 80px;
+    overflow: hidden;
+  }
+  .progress-bar-fill { height: 8px; border-radius: 4px; background: var(--appui); }
+  .progress-bar-fill.late { background: var(--alerte); }
+
+  /* Boutons */
+  .btn-primary {
+    display: inline-block;
+    background: var(--appui);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .btn-secondary {
+    display: inline-block;
+    background: transparent;
+    color: var(--appui);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+  }
+  .btn-secondary:hover { text-decoration: underline; }
+
+  /* Nav tabs (vue référent) */
+  .tab-bar {
+    display: flex; gap: 0; border-bottom: 2px solid #D0D6DC;
+    margin-bottom: 24px;
+  }
+  .tab {
+    padding: 10px 20px; font-size: 15px; font-weight: 600;
+    color: var(--ardoise); cursor: pointer; border-bottom: 2px solid transparent;
+    margin-bottom: -2px; background: none; border-top: none; border-left: none; border-right: none;
+  }
+  .tab.tab-active { color: var(--appui); border-bottom-color: var(--appui); }
+
+  /* Section header */
+  .section-label {
+    font-size: 12px; font-weight: 600; color: var(--ardoise);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 12px;
+  }
+
+  /* Notification pill */
+  .notif-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: #FDF1ED; border: 1px solid #E8C5B8;
+    border-radius: 8px; padding: 8px 14px;
+    color: var(--alerte); font-size: 14px; font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  /* Lien produire doc */
+  .doc-link {
+    display: flex; align-items: center; gap: 10px;
+    background: #fff; border: 1px solid #D0D6DC; border-radius: 8px;
+    padding: 12px 16px; cursor: pointer; margin-bottom: 8px;
+    color: var(--encre); font-size: 15px; font-weight: 600;
+    text-decoration: none;
+  }
+  .doc-link-sub { font-size: 13px; color: var(--ardoise); font-weight: 400; margin-top: 2px; }
+
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════
+     ÉCRAN 1 — P1-1 · Parcours d'onboarding personnalisé
+     ═══════════════════════════════════════════════════════ -->
+<section class="screen active" id="screen-1" data-title="Mon parcours d'onboarding" data-story="P1-1">
+
+  <div class="screen-meta">
+    <span class="tag">P1-1</span>
+    Mon parcours · Semaine 1
+  </div>
+
+  <!-- Alerte retard -->
+  <div class="alert-banner">
+    <span>⚠</span>
+    Un module est en retard · Pense à compléter « Présentation générale » avant vendredi
+  </div>
+
+  <h1>Mon parcours d'onboarding</h1>
+  <p>Voici les étapes prévues pour tes premières semaines à La Sauvegarde du Nord, dans l'ordre où tu vas les vivre.</p>
+
+  <div class="profile-card">
+    <div class="avatar">T</div>
+    <div class="profile-info">
+      <div class="name">Théo Martin</div>
+      <div class="role">Travailleur social · SAVS Lille · CDI · Arrivée 14 janvier 2025</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Timeline -->
+  <div class="section-label">Déroulé du parcours</div>
+
+  <div class="timeline">
+
+    <!-- J1 -->
+    <div class="timeline-item">
+      <div class="timeline-dot dot-done">✓</div>
+      <div class="timeline-content">
+        <div class="timeline-label">Jour 1 <span class="badge-done">Complété</span></div>
+        <div class="timeline-date">14 janvier 2025</div>
+        <ul class="modules-list" style="margin-top:10px; margin-bottom:0;">
+          <li class="module-item">
+            <div class="module-check check-done">✓</div>
+            <div>
+              <div class="module-text">RH · Administratif reçu</div>
+              <div class="module-sub">Contrat, mutuelle, badges</div>
+            </div>
+          </li>
+          <li class="module-item">
+            <div class="module-check check-done">✓</div>
+            <div>
+              <div class="module-text">Rencontre buddy</div>
+              <div class="module-sub">Sophie Leroy · Éducatrice spécialisée</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- J+10 -->
+    <div class="timeline-item">
+      <div class="timeline-dot dot-late">!</div>
+      <div class="timeline-content">
+        <div class="timeline-label">J+10 <span class="badge-late">En retard</span></div>
+        <div class="timeline-date">Prévu le 24 janvier · Aujourd'hui le 27 janvier</div>
+        <ul class="modules-list" style="margin-top:10px; margin-bottom:0;">
+          <li class="module-item" style="border-color:#E8C5B8;">
+            <div class="module-check check-todo">–</div>
+            <div>
+              <div class="module-text">Présentation générale</div>
+              <div class="module-sub">L'association, ses missions, son projet associatif</div>
+            </div>
+          </li>
+          <li class="module-item">
+            <div class="module-check check-done">✓</div>
+            <div>
+              <div class="module-text">Formation outils salariés</div>
+              <div class="module-sub">Intranet, messagerie, annuaire</div>
+            </div>
+          </li>
+          <li class="module-item">
+            <div class="module-check check-todo">–</div>
+            <div>
+              <div class="module-text">Premiers retours et questions</div>
+              <div class="module-sub">Rendez-vous avec le référent</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Notifications intermédiaires -->
+    <div class="timeline-item">
+      <div class="timeline-dot dot-todo">·</div>
+      <div class="timeline-content">
+        <div class="timeline-label">En continu <span class="badge-encours">À venir</span></div>
+        <div class="timeline-date">Semaines 2 à 4</div>
+        <div class="timeline-date" style="margin-top:6px;">Notifications sur l'avancée du parcours · alertes si étapes non complétées · rappels du référent</div>
+      </div>
+    </div>
+
+    <!-- +6 mois -->
+    <div class="timeline-item">
+      <div class="timeline-dot dot-todo">·</div>
+      <div class="timeline-content">
+        <div class="timeline-label">+6 mois</div>
+        <div class="timeline-date">Juillet 2025</div>
+        <div class="timeline-date" style="margin-top:6px;">Welcome Team · Bilan d'intégration</div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="divider">
+
+  <button class="btn-primary" data-goto="screen-2">Voir ma personne référente</button>
+  <button class="btn-secondary" data-goto="screen-3">Accéder à mon kit de documents →</button>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     ÉCRAN 2 — P1-2 · Personne référente
+     ═══════════════════════════════════════════════════════ -->
+<section class="screen" id="screen-2" data-title="Ma personne référente" data-story="P1-2">
+
+  <div class="screen-meta">
+    <span class="tag">P1-2</span>
+    Ma personne référente
+  </div>
+
+  <h1>Ta personne référente</h1>
+  <p>C'est elle qui suit tes premiers pas. Tu peux lui écrire ou l'appeler dès que tu bloques, sans attendre.</p>
+
+  <div class="referent-card">
+    <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
+      <div class="avatar" style="width:56px;height:56px;font-size:22px;">S</div>
+      <div>
+        <div class="referent-name">Sophie Leroy</div>
+        <div class="referent-role">Éducatrice spécialisée · SAVS Lille<br>Référente d'intégration depuis 3 ans</div>
+      </div>
+    </div>
+    <hr class="divider" style="margin: 12px 0;">
+    <div class="section-label">Comment la joindre</div>
+    <div style="display:flex; flex-direction:column; gap:8px;">
+      <div class="referent-contact">📞 06 12 34 56 78</div>
+      <div class="referent-contact">✉ s.leroy@sauvegarde-nord.fr</div>
+      <div style="color:var(--ardoise); font-size:14px; margin-top:4px;">Bureau B204 · Disponible lun–ven, 9h–17h</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section-label">Ce que Sophie suit pour toi</div>
+
+  <ul class="modules-list">
+    <li class="module-item">
+      <div class="module-check check-done">✓</div>
+      <div>
+        <div class="module-text">Premier contact établi</div>
+        <div class="module-sub">Rencontre buddy · 14 janvier</div>
+      </div>
+    </li>
+    <li class="module-item">
+      <div class="module-check check-todo">–</div>
+      <div>
+        <div class="module-text">Premiers retours et questions</div>
+        <div class="module-sub">Rendez-vous prévu · à planifier</div>
+      </div>
+    </li>
+    <li class="module-item">
+      <div class="module-check check-todo">–</div>
+      <div>
+        <div class="module-text">Bilan à 6 mois</div>
+        <div class="module-sub">Welcome Team · juillet 2025</div>
+      </div>
+    </li>
+  </ul>
+
+  <hr class="divider">
+
+  <!-- Vue référent : tableau récapitulatif -->
+  <div class="notif-pill">⚠ Sophie a été alertée du retard sur « Présentation générale »</div>
+
+  <div class="section-label" style="margin-top:8px;">Tableau de bord de Sophie · avancement de Théo</div>
+
+  <table class="recap-table">
+    <thead>
+      <tr>
+        <th>Étape</th>
+        <th>Échéance</th>
+        <th>Avancement</th>
+        <th>Statut</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>RH · Administratif</strong></td>
+        <td>J1</td>
+        <td>
+          <div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:100%"></div></div>
+          <div style="font-size:12px;color:var(--ardoise);margin-top:4px;">100 %</div>
+        </td>
+        <td><span class="badge-done">Complété</span></td>
+      </tr>
+      <tr>
+        <td><strong>Rencontre buddy</strong></td>
+        <td>J1</td>
+        <td>
+          <div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:100%"></div></div>
+          <div style="font-size:12px;color:var(--ardoise);margin-top:4px;">100 %</div>
+        </td>
+        <td><span class="badge-done">Complété</span></td>
+      </tr>
+      <tr>
+        <td><strong>Formation outils</strong></td>
+        <td>J+10</td>
+        <td>
+          <div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:100%"></div></div>
+          <div style="font-size:12px;color:var(--ardoise);margin-top:4px;">100 %</div>
+        </td>
+        <td><span class="badge-done">Complété</span></td>
+      </tr>
+      <tr class="alerte-row">
+        <td><strong>Présentation générale</strong></td>
+        <td>J+10</td>
+        <td>
+          <div class="progress-bar-wrap"><div class="progress-bar-fill late" style="width:30%"></div></div>
+          <div style="font-size:12px;color:var(--alerte);margin-top:4px;">30 % · 3 jours de retard</div>
+        </td>
+        <td><span class="badge-late">⚠ En retard</span></td>
+      </tr>
+      <tr class="alerte-row">
+        <td><strong>Premiers retours</strong></td>
+        <td>J+10</td>
+        <td>
+          <div class="progress-bar-wrap"><div class="progress-bar-fill late" style="width:0%"></div></div>
+          <div style="font-size:12px;color:var(--alerte);margin-top:4px;">0 % · non démarré</div>
+        </td>
+        <td><span class="badge-late">⚠ En retard</span></td>
+      </tr>
+      <tr>
+        <td><strong>Bilan 6 mois</strong></td>
+        <td>+6 mois</td>
+        <td>
+          <div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:0%"></div></div>
+          <div style="font-size:12px;color:var(--ardoise);margin-top:4px;">À venir</div>
+        </td>
+        <td><span style="color:var(--ardoise);font-size:13px;">Planifié</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr class="divider">
+
+  <button class="btn-primary" data-goto="screen-3">Accéder à mon kit de documents</button>
+  <button class="btn-secondary" data-goto="screen-1">← Retour au parcours</button>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     ÉCRAN 3 — P1-3 · Kit de documents
+     ═══════════════════════════════════════════════════════ -->
+<section class="screen" id="screen-3" data-title="Mon kit de documents" data-story="P1-3">
+
+  <div class="screen-meta">
+    <span class="tag">P1-3</span>
+    Mon kit de documents
+  </div>
+
+  <h1>Mon kit de documents</h1>
+  <p>Ces ressources ont été sélectionnées pour ton profil : travailleur social, SAVS Lille, CDI. Elles t'appartiennent dès aujourd'hui.</p>
+
+  <div class="section-label">Socle commun · tous les collaborateurs</div>
+
+  <ul class="kit-list">
+    <li class="kit-item">
+      <div class="kit-icon">📄</div>
+      <div style="flex:1;">
+        <div class="kit-label">Livret d'accueil de l'association</div>
+        <div class="kit-sub">Projet associatif, valeurs, organisation générale</div>
+      </div>
+      <div class="kit-action">Ouvrir</div>
+    </li>
+    <li class="kit-item">
+      <div class="kit-icon">📋</div>
+      <div style="flex:1;">
+        <div class="kit-label">Démarches administratives à compléter</div>
+        <div class="kit-sub">Mutuelle, vestiaire, badge, accès informatiques</div>
+      </div>
+      <div class="kit-action">Ouvrir</div>
+    </li>
+    <li class="kit-item">
+      <div class="kit-icon">🗺</div>
+      <div style="flex:1;">
+        <div class="kit-label">Plan des sites et contacts clés</div>
+        <div class="kit-sub">Siège + SAVS Lille + numéros utiles</div>
+      </div>
+      <div class="kit-action">Ouvrir</div>
+    </li>
+  </ul>
+
+  <hr class="divider">
+
+  <div class="section-label">Expertise · Travailleur social · SAVS</div>
+
+  <ul class="kit-list">
+    <li class="kit-item">
+      <div class="kit-icon">📘</div>
+      <div style="flex:1;">
+        <div class="kit-label">Fiches métier · Travailleur social</div>
+        <div class="kit-sub">Missions, protocoles, partenaires du secteur</div>
+      </div>
+      <div class="kit-action">Ouvrir</div>
+    </li>
+    <li class="kit-item">
+      <div class="kit-icon">🔑</div>
+      <div style="flex:1;">
+        <div class="kit-label">Accès et outils numériques</div>
+        <div class="kit-sub">Logiciel de suivi, messagerie, intranet</div>
+      </div>
+      <div class="kit-action">Ouvrir</div>
+    </li>
+    <li class="kit-item">
+      <div class="kit-icon">👥</div>
+      <div style="flex:1;">
+        <div class="kit-label">Buddy(s) identifiés dans ton service</div>
+        <div class="kit-sub">Sophie Leroy + Marc Dumont · SAVS Lille</div>
+      </div>
+      <div class="kit-action">Voir</div>
+    </li>
+  </ul>
+
+  <hr class="divider">
+
+  <div class="section-label">Généré par les RH au recrutement</div>
+
+  <ul class="kit-list">
+    <li class="kit-item">
+      <div class="kit-icon">📁</div>
+      <div style="flex:1;">
+        <div class="kit-label">Fiche de poste · Théo Martin</div>
+        <div class="kit-sub">Missions, rattachement hiérarchique, objectifs</div>
+      </div>
+      <div class="kit-action">Ouvrir</div>
+    </li>
+  </ul>
+
+  <hr class="divider">
+
+  <div class="section-label">Produire un document</div>
+
+  <a class="doc-link" href="#">
+    <div style="font-size:20px;">📝</div>
+    <div>
+      <div>Produire un autre document</div>
+      <div class="doc-link-sub">Générer un document personnalisé à partir de mon profil</div>
+    </div>
+  </a>
+
+  <hr class="divider">
+
+  <button class="btn-primary" data-goto="screen-1">← Retour à mon parcours</button>
+  <button class="btn-secondary" data-goto="screen-2">Voir ma personne référente →</button>
+
+</section>
+
+<script>
+  const screens = document.querySelectorAll('.screen');
+
+  function goTo(id) {
+    screens.forEach(s => s.classList.remove('active'));
+    const target = document.getElementById(id);
+    if (target) {
+      target.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  document.addEventListener('click', function(e) {
+    const btn = e.target.closest('[data-goto]');
+    if (btn) {
+      e.preventDefault();
+      goTo(btn.getAttribute('data-goto'));
+    }
+  });
+
+  document.addEventListener('submit', function(e) {
+    const form = e.target;
+    const goto = form.getAttribute('data-goto');
+    if (goto) {
+      e.preventDefault();
+      goTo(goto);
+    }
+  });
+</script>
+</body>
+</html>

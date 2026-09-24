@@ -1,0 +1,120 @@
+.referentCard {
+  background: #fff;
+  border: 1px solid #d0d6dc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.referentHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  background: var(--appui);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.referentName {
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--encre);
+  margin-bottom: 4px;
+}
+
+.referentRole {
+  color: var(--ardoise);
+  font-size: 14px;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.referentContact {
+  color: var(--appui);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.disponibilite {
+  color: var(--ardoise);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.emptyState {
+  background: #fff;
+  border: 1px dashed #d0d6dc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+  color: var(--ardoise);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.modulesList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.moduleItem {
+  background: #fff;
+  border: 1px solid #d0d6dc;
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.moduleCheckDone,
+.moduleCheckTodo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.moduleCheckDone {
+  background: var(--appui);
+  color: #fff;
+}
+
+.moduleCheckTodo {
+  background: #d0d6dc;
+  color: #fff;
+}
+
+.moduleTitre {
+  font-size: 15px;
+  color: var(--encre);
+}
+
+.moduleDetail {
+  font-size: 13px;
+  color: var(--ardoise);
+  margin-top: 2px;
+}

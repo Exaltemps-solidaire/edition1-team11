@@ -1,0 +1,56 @@
+# Posé par l'infrastructure du hackathon. Ce dépôt est PUBLIC.
+*.env
+.env
+hackathon.env
+*.pem
+*_key
+id_*
+node_modules/
+__pycache__/
+
+# --- Next.js / projet, ajouté lors de l'import depuis exaltemps-solidaire ---
+
+# dependencies
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (couverture plus large que *.env / .env ci-dessus : .env.local, .env.production, etc.)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# claude code
+.claude/worktrees/
+.claude/settings.local.json
+
+# archive de passation : contenu déjà versionné en clair, le zip est redondant
+passation/passation.zip

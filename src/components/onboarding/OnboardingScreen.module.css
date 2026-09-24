@@ -1,0 +1,271 @@
+.personaSwitcher {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 720px;
+  margin-bottom: 12px;
+}
+
+.personaTab {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid #d0d6dc;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ardoise);
+  background: #fff;
+}
+
+.personaTabActive {
+  border-color: var(--appui);
+  color: var(--appui);
+  background: #eaf4f1;
+}
+
+.screen {
+  width: 100%;
+  max-width: 720px;
+  background: var(--papier);
+  border-radius: 8px;
+  border: 1px solid #d0d6dc;
+  padding: 32px 32px 40px;
+}
+
+.screenMeta {
+  font-size: 13px;
+  color: var(--ardoise);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tag {
+  background: var(--appui);
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #d0d6dc;
+  margin: 24px 0;
+}
+
+.alertBanner {
+  background: #fdf1ed;
+  border-left: 4px solid var(--alerte);
+  border-radius: 0 8px 8px 0;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  color: var(--alerte);
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.alertBanner span {
+  font-size: 18px;
+}
+
+.profileCard {
+  background: #fff;
+  border: 1px solid #d0d6dc;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  background: var(--appui);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.profileName {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--encre);
+}
+
+.profileRole {
+  color: var(--ardoise);
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.sectionLabel {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ardoise);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+.timelineItem {
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.timelineItem:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 19px;
+  top: 40px;
+  width: 2px;
+  bottom: 0;
+  background: #d0d6dc;
+}
+
+.timelineDot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 13px;
+  border: 2px solid transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.dot-complete {
+  background: var(--appui);
+  color: #fff;
+  border-color: var(--appui);
+}
+
+.dot-en_retard {
+  background: #fff;
+  color: var(--alerte);
+  border-color: var(--alerte);
+}
+
+.dot-a_venir {
+  background: #fff;
+  color: var(--ardoise);
+  border-color: #d0d6dc;
+}
+
+.timelineContent {
+  flex: 1;
+  padding: 8px 0 24px;
+}
+
+.timelineLabel {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--encre);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.timelineDate {
+  font-size: 13px;
+  color: var(--ardoise);
+  margin-top: 2px;
+}
+
+.badge {
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-en_retard {
+  background: #fdf1ed;
+  color: var(--alerte);
+}
+
+.badge-complete {
+  background: #eaf4f1;
+  color: var(--appui);
+}
+
+.badge-a_venir {
+  background: #e8f0fe;
+  color: #1a56db;
+}
+
+.modulesList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.moduleItem {
+  background: #fff;
+  border: 1px solid #d0d6dc;
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.moduleCheckDone,
+.moduleCheckTodo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.moduleCheckDone {
+  background: var(--appui);
+  color: #fff;
+}
+
+.moduleCheckTodo {
+  background: #d0d6dc;
+  color: #fff;
+}
+
+.moduleTitre {
+  font-size: 15px;
+  color: var(--encre);
+}
+
+.moduleDetail {
+  font-size: 13px;
+  color: var(--ardoise);
+  margin-top: 2px;
+}

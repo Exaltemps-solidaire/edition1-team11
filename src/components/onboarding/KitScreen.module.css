@@ -1,0 +1,46 @@
+.kitList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.kitItem {
+  background: #fff;
+  border: 1px solid #d0d6dc;
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.kitIcon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.kitBody {
+  flex: 1;
+}
+
+.kitLabel {
+  flex: 1;
+  font-size: 15px;
+  color: var(--encre);
+  font-weight: 600;
+}
+
+.kitSub {
+  font-size: 13px;
+  color: var(--ardoise);
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.kitAction {
+  font-size: 13px;
+  color: var(--appui);
+  font-weight: 600;
+}
